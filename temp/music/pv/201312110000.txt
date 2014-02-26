@@ -1,0 +1,300 @@
+baidu.ting.song.getInfos	58526926
+baidu.ting.search.lrcpic	28045467
+baidu.ting.song.baseInfo	27941761
+baidu.ting.search.catalogSug	21859737
+baidu.ting.search.common	17989739
+baidu.ting.user.listenAge	17733107
+baidu.ting.song.play	17472514
+baidu.ting.song.down	8881382
+baidu.ting.song.lry	7966383
+baidu.ting.user.getUserBaseInfo	7694592
+baidu.ting.artist.getSongList	5615948
+baidu.ting.favorite.isCollect	5318246
+baidu.ting.song.getInfo	5040302
+baidu.ting.search.lrcys	5039197
+ting.baidu.diy.getPlaylists	5014161
+baidu.ting.artist.getList	4947421
+baidu.ting.billboard.billList	4697983
+baidu.ting.search.getPhotoInfos	4337362
+baidu.ting.artist.getInfo	3245440
+baidu.ting.user.config	3074318
+baidu.ting.user.checkComVersion	2973934
+baidu.ting.game.gamedetail	2964774
+baidu.ting.plaza.getRecommendAlbum	2807666
+baidu.ting.plaza.active	2667351
+baidu.ting.radio.playAction	2596440
+baidu.ting.user.checkSuggestVersion	2554545
+baidu.ting.diy.gedanInfo	2529459
+	2404777
+baidu.ting.active.start	2329885
+baidu.ting.plaza.getFocusPic	1759174
+baidu.ting.user.getMessage	1747388
+baidu.ting.user.registToUC	1659692
+baidu.ting.search.suggestion	1470689
+baidu.ting.artist.getinfo	1347040
+baidu.ting.diy.gedanHot	1317196
+baidu.ting.radio.getChannelSong	1316742
+baidu.ting.album.getAlbumInfo	1223263
+baidu.ting.diy.addListenCount	1069984
+baidu.ting.favorite.getCollectSong	1054659
+baidu.ting.diy.category	942506
+baidu.ting.plaza.recdaily	917802
+ting.baidu.plaza.recdaily	914949
+baidu.ting.artist.getAlbumList	879517
+baidu.ting.plaza.getPartDesc	822547
+baidu.ting.user.down	778963
+baidu.ting.song.audio	696504
+baidu.ting.tag.songlist	690148
+baidu.ting.feedback.song	654875
+baidu.ting.tag.getHotTag	641026
+baidu.ting.diy.gedan	622110
+baidu.ting.diy.getNowOfficalList	619741
+baidu.ting.user.RegistToImsg	567318
+baidu.ting.diy.getSongFromOfficalList	444841
+baidu.ting.radio.getCategoryList	441140
+baidu.ting.billboard.billCategory	369362
+baidu.ting.search.getPhotoInfo	363261
+baidu.ting.search.lrcyss	361609
+baidu.ting.diy.getPlaylists	333078
+baidu.ting.artist.get72HotArtist	228575
+baidu.ting.game.gamelist	217114
+baidu.ting.plaza.recommend	195145
+baidu.ting.favorite.getFavoriteSong	188620
+baidu.ting.song.buffer	169377
+baidu.ting.song.getMulInfos	151312
+baidu.ting.favorite.addSongFavorites	135747
+baidu.ting.video.getList	131807
+baidu.ting.tag.getAllTag	106487
+baidu.ting.favorite.addSongFavorite	105410
+baidu.ting.mv.getIndexMV	105047
+baidu.ting.diy.getSimilarGedan	104581
+baidu.ting.diy.search	98103
+baidu.ting.diy.getOfficialDiyList	79929
+baidu.ting.video.play	75760
+baidu.ting.favorite.delCollectSong	49672
+baidu.ting.user.checkVersion	43290
+baidu.ting.plaza.getNewSongs	42006
+baidu.ting.artist.getSpecialSongList	41403
+ting.baidu.diy.getPlaylist	37595
+baidu.ting.mv.playMV	33920
+baidu.ting.radio.getArtistChannelSong	27216
+baidu.ting.radio.getFavoriteSong	23225
+baidu.ting.diy.getPlaylist	18787
+baidu.ting.plaza.getArtistPlaza	17825
+baidu.ting.radio.serv	17350
+baidu.ting.artist.getHighSongTitle	14231
+baidu.ting.diy.saveList	12542
+baidu.ting.video.category	11480
+baidu.ting.feedback.crash	11248
+baidu.ting.album.getList	10797
+ting.baidu.film.getFilmInfo	9285
+baidu.ting.outerPassport.profile	8493
+baidu.ting.song.cloud	8478
+baidu.ting.favorite.delSongFavorite	8316
+baidu.ting.mv.searchMV	8030
+baidu.ting.song.getMulInfo	7181
+baidu.ting.user.nplogin	6988
+baidu.ting.artist.getQianQianArtist	6650
+ting.baidu.song.lry	6612
+baidu.ting.weixin.response	5912
+baidu.ting.diy.addListSong	5513
+baidu.ting.song.playAAC	5227
+baidu.ting.diy.delList	5023
+baidu.ting.diy.delListSong	4901
+baidu.ting.colorRing.listen	4537
+baidu.ting.user.logout	4116
+baidu.ting.billboard.catalog	4079
+baidu.ting.user.regPassport	3668
+baidu.ting.artist.getHighSongList	3585
+baidu.ting.colorRing.getCode	3503
+ting.baidu.artistapp.renum	3051
+baidu.ting.colorRing.authset	2893
+baidu.ting.user.getMobileVcode	2585
+baidu.ting.favorite.delSongFavorites	1876
+baidu.ting.diy.getRecommendSpeical	1728
+baidu.ting.feedback.info	1553
+baidu.ting.favorite.getFavoriteAlbum	1543
+baidu.ting.mv.getMultiSongMVInfo	1487
+baidu.ting.artist.getSongRank	1320
+baidu.ting.artist.getSong	1299
+ting.baidu.artistapp.brief	866
+baidu.ting.favorite.getListenHistory	776
+baidu.ting.diy.addList	743
+baidu.ting.mv.getMVCategory	697
+baidu.ting.video.recMv	575
+baidu.ting.diy.upList	550
+baidu.ting.colorRing.subscribe	539
+ting.baidu.search.lrcpic	537
+baidu.ting.colorRing.toneset	510
+baidu.ting.song.getSuoSongInfo	479
+baidu.ting.favorite.getOffenListenList	394
+baidu.ting.artist.getInfoList	334
+baidu.ting.user.activate	306
+baidu.ting.artist.getInfoByName	291
+ting.baidu.plaza.getFocusPic	289
+baidu.ting.favorite.addAlbumFavorite	282
+ting.baidu.artistapp.newList	195
+baidu.ting.favorite.getInfoFromView	183
+baidu.ting.user.login	181
+baidu.ting.artistapp.photo	161
+baidu.ting.song.getHash	145
+ting.baidu.artistapp.news	136
+baidu.ting.favorite.delAlbumFavorite	96
+ting.baidu.artistapp.briefs	63
+baidu.ting.plaza.getMisNewSong	60
+ /v8  ADw-script AD4-sslx=812812 ADw-/script AD4- nonxss	32
+baidu.ting.user.addPassportInfo	30
+baidu.ting.album.getAlbumstyle	24
+baidu.ting.cloud.signature	24
+ting.baidu.artistapp.send	19
+baidu.ting.cloud.checkFile	18
+ting.baidu.song.buffer	16
+baidu.ting.game.catalog	12
+ting.baidu.song.getinfos	11
+baidu.ting.game.gameplay	9
+(	6
+\' (	6
+ting.baidu.song.baseinfo	4
+baidu.ting.cloud.record	3
+baidu.ting.song.lryabcdc>>>>>\'\'\'\'\'\"\"\"\"\";;;	3
+baidu.ting.song.playabcdc>>>>>\'\'\'\'\'\"\"\"\"\";;;	3
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL	2
+http://10.42.7.217/?1386707262.16	2
+data://text/plain;base64,dGVzdA==	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.song.lry\';alert(1);\'	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+file:///etc/passwd_.html	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL	2
+%{	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL	2
+/usr/bin/id;	2
+../../../../../../../../../../sbin/../etc/./rc.d/../rc.d/.././rc.local_	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL-- 	2
+\'];${@print(md5(812812))};//	2
+1\';cat /etc/rc.d/rc.local;\'	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL	2
+../../../../../../../../../../sbin/../etc/./rc.d/../rc.d/.././rc.local	2
+${	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL	2
+http://cirt.lnet/rfiinc.txt_	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\'); WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL-- 	2
+string:{var_dump(md5(812812))}	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion\') WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion%\' AND SLEEP(5) AND \'%\'=\'	2
+baidu.ting.user.checkSuggestVersion%\' WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion\'; WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion%\'; WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+http://cirt.lnet/rfiinc.txt	2
+baidu.ting.user.checkSuggestVersion\' WAITFOR DELAY \'0:0:5\'--	2
+file:///etc/rc.d/rc.local_	2
+file:///etc/passwd_	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+${@print(md5(812812))}	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL	2
+1\\\";cat /etc/rc.d/rc.local;\\\"	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL-- 	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL	2
+c:/windows/win.ini_	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL-- 	2
+http://10.42.7.217/?1386704648.33	2
+file:///etc/passwd	2
+baidu.ting.user.checkSuggestVersion) WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL-- 	2
+baidu.ting.user.checkSuggestVersion AND SLEEP(5)	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL	2
+baidu.ting.user.checkSuggestVersion; WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL	2
+baidu.ting.song.play\';alert(1);\'	2
+data://text/plain;base64,dGVzdA==_	2
+baidu.ting.user.checkSuggestVersion%\'; SELECT PG_SLEEP(5)--	2
+baidu.ting.user.checkSuggestVersion\'); SELECT PG_SLEEP(5)--	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL-- 	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL	2
+baidu.ting.user.checkSuggestVersion WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL-- 	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL	2
+baidu.ting.user.checkSuggestVersion%\'; SELECT SLEEP(5)-- 	2
+baidu.ting.user.checkSuggestVersion); SELECT PG_SLEEP(5)--	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL	2
+baidu.ting.user.checkSuggestVersion; SELECT SLEEP(5)-- 	2
+baidu.ting.user.checkSuggestVersion; SELECT PG_SLEEP(5)--	2
+baidu.ting.user.checkSuggestVersion\'); SELECT SLEEP(5)-- 	2
+../../../../../../../../../../etc/passwd	2
+set	2
+baidu.ting.user.checkSuggestVersion%\' ORDER BY 1-- 	2
+baidu.ting.user.checkSuggestVersion\') ORDER BY 1-- 	2
+baidu.ting.user.checkSuggestVersion) ORDER BY 1-- 	2
+baidu.ting.user.checkSuggestVersion\' ORDER BY 1-- 	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+../../../../../../../../../../etc/rc.d/rc.local_.html	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL	2
+../../../../../../../../../../etc/passwd_	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\') ORDER BY 1	2
+file:///etc/rc.d/rc.local	2
+baidu.ting.user.checkSuggestVersion); SELECT SLEEP(5)-- 	2
+1;cat /etc/rc.d/rc.local;	2
+baidu.ting.user.checkSuggestVersion\'; SELECT SLEEP(5)-- 	2
+baidu.ting.user.checkSuggestVersion ORDER BY 1-- 	2
+../../../../../../../../../../etc/passwd_.jpeg	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion ORDER BY 1	2
+../../../../../../../../../../etc/rc.d/rc.local	2
+c:/windows/win.ini	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion) ORDER BY 1	2
+baidu.ting.user.checkSuggestVersion%\' ORDER BY 1	2
+../../../../../../../../../../etc/rc.d/rc.local_	2
+baidu.ting.user.checkSuggestVersion\'; SELECT PG_SLEEP(5)--	2
+baidu.ting.user.checkSuggestVersion); WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\' ORDER BY 1	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- 	2

@@ -1,0 +1,356 @@
+baidu.ting.artist.getSongList	41.985878671568
+baidu.ting.artistapp.photo	17.527173913043
+baidu.ting.diy.getNowOfficalList	7.8670222226554
+baidu.ting.diy.search	25.859028465981
+baidu.ting.favorite.addAlbumFavorite	49.235294117647
+baidu.ting.mv.getIndexMV	21.558341927033
+baidu.ting.mv.searchMV	61.959901068252
+baidu.ting.plaza.getPartDesc	14.325103225886
+baidu.ting.search.getPhotoInfo	24.531737783136
+baidu.ting.search.lrcyss	81.515999943655
+baidu.ting.song.baseInfo	9.8802593002753
+baidu.ting.song.lry\' \'	0
+baidu.ting.song.lrys3	0
+baidu.ting.user.activate	0.71578947368421
+baidu.ting.user.checkPassWeak	61.416666666667
+baidu.ting.user.checkSuggestVersion AND 8694=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113)||(SELECT (CASE WHEN (8694=8694) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)||CHR(62))) FROM DUAL)	2
+baidu.ting.user.checkSuggestVersion ORDER BY 1#	0
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion) AND 1673=CONVERT(INT,(SELECT CHAR(113) CHAR(115) CHAR(107) CHAR(109) CHAR(113) (SELECT (CASE WHEN (1673=1673) THEN CHAR(49) ELSE CHAR(48) END)) CHAR(113) CHAR(105) CHAR(104) CHAR(111) CHAR(113))) AND (4404=4404	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL#	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion; WAITFOR DELAY \'0:0:5\'--	0
+baidu.ting.user.checkSuggestVersion\' ORDER BY 1-- 	0
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#	3
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL-- 	0
+baidu.ting.user.registToUC	13.200049188928
+baidu.ting.video.recMv	183.85888501742
+ting.baidu.active.start	12.098039215686
+ting.baidu.billboard.billCategory	17.355048859935
+ting.baidu.diy.gedanhot	36.96875
+ting.baidu.song.getinfos	25.81098546042
+baidu.ting.album.getAlbumstyle	16.923076923077
+baidu.ting.artist.getInfoList	174.77521008403
+baidu.ting.cloud.checkFile	638.31396969782
+baidu.ting.diy.gedanInfo	22.961632243822
+baidu.ting.diy.getPlaylists	63.874117467789
+baidu.ting.diy.getSongFromOfficalList	26.412930237782
+baidu.ting.diy.upList	77.659090909091
+baidu.ting.favorite.delSongFavorites	64.723422278695
+baidu.ting.plaza.getRecommendAlbum	32.841681939844
+baidu.ting.song.audio	92.678816363512
+baidu.ting.song.getHash	0.62264150943396
+baidu.ting.song.getMulInfo	26.81580794609
+baidu.ting.song.lry\'`\"(	0
+baidu.ting.song.play\' \'	6
+baidu.ting.user.checkSuggestVersion AND 3923=3923	0
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion%\' AND 8335=5635 AND \'%\'=\'	2
+baidu.ting.user.checkSuggestVersion%\' AND SLEEP(5) AND \'%\'=\'	3
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion) AND 7805=CAST((CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113))||(SELECT (CASE WHEN (7805=7805) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)) AS NUMERIC) AND (1778=1778	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion); WAITFOR DELAY \'0:0:5\'--	3
+baidu.ting.user.checkSuggestVersion\",(	0
+baidu.ting.user.checkSuggestVersion\' AND 1673=CONVERT(INT,(SELECT CHAR(113) CHAR(115) CHAR(107) CHAR(109) CHAR(113) (SELECT (CASE WHEN (1673=1673) THEN CHAR(49) ELSE CHAR(48) END)) CHAR(113) CHAR(105) CHAR(104) CHAR(111) CHAR(113))) AND \'oDia\'=\'oDia	3
+baidu.ting.user.checkSuggestVersion\' AND 3923=3923 AND \'Rnjp\'=\'Rnjp	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\') WAITFOR DELAY \'0:0:5\'--	3
+baidu.ting.user.checkSuggestVersion\'); SELECT PG_SLEEP(5)--	2
+baidu.ting.user.regPassport	104.47506718423
+ting.baidu.diy.gedan	39.470588235294
+baidu.ting.album.getAlbumInfo	60.378603964951
+baidu.ting.billboard.catalog	0.049028268551237
+baidu.ting.colorRing.getCode	589.3580998782
+baidu.ting.diy.delListSong	68.741122159091
+baidu.ting.diy.gedanHot	31.376596391675
+baidu.ting.diy.getSimilarGedan	17.150236477442
+baidu.ting.favorite.delSongFavorite	67.538906673233
+baidu.ting.feedback.crash	0.053281701877359
+baidu.ting.plaza.getFocusPic	26.454155737218
+baidu.ting.plaza.getNewSongs	47.320734131795
+baidu.ting.song.lry	72.42959571433
+baidu.ting.user.addPassportInfo	323.64077669903
+baidu.ting.user.checkComVersion	1.0786243982545
+baidu.ting.user.checkSuggestVersion AND 7805=CAST((CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113))||(SELECT (CASE WHEN (7805=7805) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)) AS NUMERIC)	5
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion%\' AND 8694=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113)||(SELECT (CASE WHEN (8694=8694) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)||CHR(62))) FROM DUAL) AND \'%\'=\'	3
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL-- 	0
+baidu.ting.user.checkSuggestVersion%\'; WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion) AND 3923=3923 AND (8635=8635	3
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\' AND 7805=CAST((CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113))||(SELECT (CASE WHEN (7805=7805) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)) AS NUMERIC) AND \'pHlI\'=\'pHlI	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\') AND 1673=CONVERT(INT,(SELECT CHAR(113) CHAR(115) CHAR(107) CHAR(109) CHAR(113) (SELECT (CASE WHEN (1673=1673) THEN CHAR(49) ELSE CHAR(48) END)) CHAR(113) CHAR(105) CHAR(104) CHAR(111) CHAR(113))) AND (\'xCWC\'=\'xCWC	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\'); WAITFOR DELAY \'0:0:5\'--	0
+baidu.ting.user.getMobileVcode	89.103595890411
+ting.baidu.artistapp.brief	17.453453453453
+ting.baidu.diy.getPlaylist	83.087246657799
+ting.baidu.song.baseInfo	10.011437908497
+baidu.ting.artist.getInfo	31.524364216663
+baidu.ting.artist.getInfoByName	50.594488188976
+baidu.ting.cloud.expand	34.885456981244
+baidu.ting.cloud.signature	7.3512533501498
+baidu.ting.colorRing.authset	5282.3211243612
+baidu.ting.colorRing.subscribe	3343.0044642857
+baidu.ting.colorRing.toneset	3387.7676056338
+baidu.ting.diy.addList	77.699395770393
+baidu.ting.diy.gedan	33.912104169425
+baidu.ting.diy.getRecommendSpeical	20.468171296296
+baidu.ting.favorite.getCollectSong	74.470959385307
+baidu.ting.favorite.getFavoriteAlbum	123.70894941634
+baidu.ting.favorite.getFavoriteSong	68.891463980051
+baidu.ting.game.gamedetail	14.711829010892
+baidu.ting.plaza.getArtistPlaza	82.738752643915
+baidu.ting.radio.playAction	73.354631274404
+baidu.ting.search.lrcys	71.992864781234
+baidu.ting.song.baseInfos	23.135713204119
+baidu.ting.song.getSuoSongInfo	37.989177489177
+baidu.ting.song.play	22.239764668883
+baidu.ting.song.play\'||\'	7
+baidu.ting.tag.getHotTag	17.104263314978
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion%\' AND 1673=CONVERT(INT,(SELECT CHAR(113) CHAR(115) CHAR(107) CHAR(109) CHAR(113) (SELECT (CASE WHEN (1673=1673) THEN CHAR(49) ELSE CHAR(48) END)) CHAR(113) CHAR(105) CHAR(104) CHAR(111) CHAR(113))) AND \'%\'=\'	2
+baidu.ting.user.checkSuggestVersion%\' AND 5185=(SELECT 5185 FROM PG_SLEEP(5)) AND \'%\'=\'	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL-- 	0
+baidu.ting.user.checkSuggestVersion; SELECT SLEEP(5)-- 	0
+baidu.ting.user.checkSuggestVersion\' AND 5185=(SELECT 5185 FROM PG_SLEEP(5)) AND \'HVMd\'=\'HVMd	0
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	3
+baidu.ting.user.checkSuggestVersion\') AND 7805=CAST((CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113))||(SELECT (CASE WHEN (7805=7805) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)) AS NUMERIC) AND (\'iRoq\'=\'iRoq	0
+baidu.ting.user.checkSuggestVersion\') AND 8694=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113)||(SELECT (CASE WHEN (8694=8694) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)||CHR(62))) FROM DUAL) AND (\'VuAX\'=\'VuAX	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- 	3
+baidu.ting.user.checkSuggestVersion\'; WAITFOR DELAY \'0:0:5\'--	3
+baidu.ting.user.logout	68.819301848049
+baidu.ting.video.category	0.037857142857143
+baidu.ting.video.play	29.074395451328
+baidu.ting.vip.checkVIPPromotion	0.041431307217618
+ting.baidu.artist.getList	68.5
+ting.baidu.artistapp.news	18
+ting.baidu.artistapp.renum	403.58431372549
+ting.baidu.song.play	23.8779342723
+baidu.ting.active.start	13.388488161861
+baidu.ting.artist.getHighSongList	39.527943852352
+baidu.ting.artist.getSongRank	11
+baidu.ting.billboard.billList	19.252609401557
+baidu.ting.cloud.record	148.59111671001
+baidu.ting.favorite.addSongFavorite	60.24494802857
+baidu.ting.favorite.delAlbumFavorite	32.844444444444
+baidu.ting.mv.getMVCategory	0.066189624329159
+baidu.ting.plaza.getMisNewSong	29.314285714286
+baidu.ting.plaza.recommend	105.83456869605
+baidu.ting.search.catalogSug	90.366331124
+baidu.ting.search.suggestion	46.998618206665
+baidu.ting.song.getMulInfos	35.767167862033
+baidu.ting.song.lry<alert(88952634)>	0
+baidu.ting.song.playAAC	22.6875
+baidu.ting.song.play\'	6.5
+baidu.ting.user.RegistToImsg	55.898041382029
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL-- 	3
+baidu.ting.user.checkSuggestVersion%\' AND 7805=CAST((CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113))||(SELECT (CASE WHEN (7805=7805) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)) AS NUMERIC) AND \'%\'=\'	3
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#	3
+baidu.ting.user.checkSuggestVersion) AND 2365=3610 AND (2644=2644	3
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion); SELECT PG_SLEEP(5)--	2
+baidu.ting.user.checkSuggestVersion); SELECT SLEEP(5)-- 	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+skin.getList	26.378378378378
+ting.baidu.artistapp.send	436.45454545455
+ting.baidu.billboard.billlist	18.849144634526
+b!idu.ting.user.checkComVersionfformat=xml	0
+baidu.ting.artist.getSpecialSongList	122.35803706993
+baidu.ting.artist.getinfo	27.734862509202
+baidu.ting.diy.getOfficialDiyList	22.851533913043
+baidu.ting.favorite.getInfoFromView	82.115151515152
+baidu.ting.game.catalog	0
+baidu.ting.plaza.recdaily	29.795221971562
+baidu.ting.radio.getChannelSong	47.30665458551
+baidu.ting.search.common	104.32989353356
+baidu.ting.search.getPhotoInfos	32.57862313175
+baidu.ting.search.lrcpic	65.284654379318
+baidu.ting.song.down	35.096530749307
+baidu.ting.song.lry\'	0
+baidu.ting.tag.getAllTag	21.70163031545
+baidu.ting.tag.songlist	20.606339707057
+baidu.ting.user.checkSuggestVersion AND 1673=CONVERT(INT,(SELECT CHAR(113) CHAR(115) CHAR(107) CHAR(109) CHAR(113) (SELECT (CASE WHEN (1673=1673) THEN CHAR(49) ELSE CHAR(48) END)) CHAR(113) CHAR(105) CHAR(104) CHAR(111) CHAR(113)))	2
+baidu.ting.user.checkSuggestVersion AND 3021=2172	3
+baidu.ting.user.checkSuggestVersion AND 5185=(SELECT 5185 FROM PG_SLEEP(5))	0
+baidu.ting.user.checkSuggestVersion ORDER BY 1-- 	0
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	3
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion%\' AND 3923=3923 AND \'%\'=\'	0
+baidu.ting.user.checkSuggestVersion%\' ORDER BY 1-- 	3
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL#	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion%\'; SELECT SLEEP(5)-- 	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\' AND 1938=4508 AND \'NEfr\'=\'NEfr	0
+baidu.ting.user.checkSuggestVersion\' AND SLEEP(5) AND \'ILiA\'=\'ILiA	3
+baidu.ting.user.checkSuggestVersion\' ORDER BY 1#	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	3
+baidu.ting.user.checkSuggestVersion\') AND 1054=5611 AND (\'ECOj\'=\'ECOj	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL#	0
+baidu.ting.user.listenAge	4.6315409313619
+ting.baidu.diy.gedaninfo	22.050736497545
+ting.baidu.search.lrcpic	66.812540400776
+ting.baidu.song.down	26.135842880524
+baidu.ting.artist.get72HotArtist	112.71107587987
+baidu.ting.artist.getAlbumList	53.267924727936
+baidu.ting.artist.getHighSongTitle	0.040569835862496
+baidu.ting.artist.getQianQianArtist	46.380678376741
+baidu.ting.billboard.billCategory	9.8735170872312
+baidu.ting.colorRing.listen	176.62490527911
+baidu.ting.diy.addListSong	90.769184219139
+baidu.ting.favorite.delCollectSong	84.916381935676
+baidu.ting.game.gamelist	0.043741904388951
+baidu.ting.mv.getMultiSongMVInfo	52.676212078253
+baidu.ting.mv.playMV	31.333220648389
+baidu.ting.outerPassport.profile	37.835835118775
+baidu.ting.push.send	2041
+baidu.ting.song.cloud	85.995294927703
+baidu.ting.song.getInfos	38.20681872556
+baidu.ting.song.play-0	1
+baidu.ting.song.play\'`\"(	8
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL-- 	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion) AND 5185=(SELECT 5185 FROM PG_SLEEP(5)) AND (3823=3823	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion) WAITFOR DELAY \'0:0:5\'--	0
+baidu.ting.user.checkSuggestVersion\' AND 8694=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113)||(SELECT (CASE WHEN (8694=8694) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)||CHR(62))) FROM DUAL) AND \'IvXn\'=\'IvXn	0
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL#	3
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL-- 	3
+baidu.ting.user.checkSuggestVersion\' WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion\') AND 5185=(SELECT 5185 FROM PG_SLEEP(5)) AND (\'HMeP\'=\'HMeP	3
+baidu.ting.user.checkSuggestVersion\') AND SLEEP(5) AND (\'eMgx\'=\'eMgx	3
+baidu.ting.user.checkSuggestVersion\') ORDER BY 1#	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	3
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\'; SELECT PG_SLEEP(5)--	0
+baidu.ting.user.getMessage	14.508706625604
+ting.baidu.plaza.getFocusPic	26.691891891892
+ting.baidu.song.cloud	74.223333333333
+baidu.ting.album.getList	334.8605292172
+baidu.ting.diy.addListenCount	18.40609531694
+baidu.ting.diy.delList	79.017644006227
+baidu.ting.favorite.addSongFavorites	101.15030995568
+baidu.ting.favorite.getListenHistory	38.598547717842
+baidu.ting.feedback.info	92.873417721519
+baidu.ting.song.lry-0	0
+baidu.ting.user.checkNameUsed	192.88372093023
+baidu.ting.user.checkSuggestVersion	0.65491622313234
+baidu.ting.user.checkSuggestVersion AND SLEEP(5)	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion%\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion%\' WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion%\'; SELECT PG_SLEEP(5)--	0
+baidu.ting.user.checkSuggestVersion) AND 8694=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(113)||CHR(115)||CHR(107)||CHR(109)||CHR(113)||(SELECT (CASE WHEN (8694=8694) THEN 1 ELSE 0 END) FROM DUAL)||CHR(113)||CHR(105)||CHR(104)||CHR(111)||CHR(113)||CHR(62))) FROM DUAL) AND (5908=5908	2
+baidu.ting.user.checkSuggestVersion) ORDER BY 1#	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL#	3
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\') ORDER BY 1-- 	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL#	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	4
+baidu.ting.user.checkSuggestVersion\'); SELECT SLEEP(5)-- 	0
+baidu.ting.user.config	0.64550763879978
+baidu.ting.user.down	17.42794360647
+ting.baidu.artist.getInfo	21.666666666667
+ting.baidu.artistapp.briefs	20.983606557377
+ting.baidu.diy.getPlaylists	57.318795388058
+ting.baidu.search.common	102.15833333333
+baidu.ting.diy.category	0.92386527957239
+baidu.ting.diy.getPlaylist	86.215865751335
+baidu.ting.favorite.isCollect	4.8284926528768
+baidu.ting.feedback.song	0.053157660288084
+baidu.ting.plaza.active	0.56242083225147
+baidu.ting.radio.getArtistChannelSong	45.054018488667
+baidu.ting.radio.getFavoriteSong	216.1479283633
+baidu.ting.song.lry\'||\'	0
+baidu.ting.user.checkSuggestVersion%\' ORDER BY 1#	3
+baidu.ting.user.checkSuggestVersion) AND SLEEP(5) AND (2081=2081	2
+baidu.ting.user.checkSuggestVersion) ORDER BY 1-- 	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\') AND 3923=3923 AND (\'knJG\'=\'knJG	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion\') UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion\'; SELECT SLEEP(5)-- 	2
+baidu.ting.user.login	150.10273972603
+baidu.ting.user.nplogin	120.14681796912
+baidu.tn	0
+ting.baidu.artistapp.newList	18.989130434783
+ting.baidu.film.getFilmInfo	39.039737387699
+ting.baidu.song.getInfos	73.333333333333
+baidu.ting.active.issue	3815
+baidu.ting.artist.getList	23.22818750481
+baidu.ting.diy.saveList	105.3394295073
+baidu.ting.favorite.getOffenListenList	38.849420849421
+baidu.ting.mv.getArtistMVInfo	295
+baidu.ting.radio.getCategoryList	49.471446234226
+baidu.ting.radio.serv	211.78557337679
+baidu.ting.song.buffer	37.472998986623
+baidu.ting.song.getInfo	13.230934459814
+baidu.ting.song.getPic	20.836748387097
+baidu.ting.song.play<alert(88952634)>	1
+baidu.ting.song.plays3	1
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL#	2
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	3
+baidu.ting.user.checkSuggestVersion UNION ALL SELECT NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion WAITFOR DELAY \'0:0:5\'--	2
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL#	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- 	0
+baidu.ting.user.checkSuggestVersion) UNION ALL SELECT NULL,NULL,NULL,NULL,NULL-- 	3
+baidu.ting.user.checkSuggestVersion; SELECT PG_SLEEP(5)--	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL#	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL,NULL,NULL-- 	2
+baidu.ting.user.checkSuggestVersion\' UNION ALL SELECT NULL-- 	3
+baidu.ting.user.checkVersion	0.61087866108787
+baidu.ting.user.getUserBaseInfo	96.225348345939
+baidu.ting.video.getList	47.792488554191
+skin.getSkinInfo	1
+ting.baidu.album.getList	172.5
+ting.baidu.plaza.recdaily	29.907922923841

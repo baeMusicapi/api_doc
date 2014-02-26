@@ -1,0 +1,267 @@
+../../../../../../../../../../etc/passwd	0.69230769230769
+baidu.ting.album.getAlbumInfo%\' and 8281=8281 and \'%\'=\'	0
+baidu.ting.album.getAlbumInfo\'/**/<scr/**/ipt>/**/>	0
+baidu.ting.album.getAlbumInfo\'>\"></title></textarea></script><img src=a onerror=alert(1)>	0
+baidu.ting.artist.getSongList	46.050445408342
+baidu.ting.artistapp.photo	17.569506726457
+baidu.ting.billboard.billList>\'>\"><script>alert(1)</script>	0
+baidu.ting.billboard.billList\";alert(1);\"	0
+baidu.ting.billboard.billList\') and 8288=8288 and (\'	0
+baidu.ting.billboard.billList\';alert(1);\'	0
+baidu.ting.billboard.billList\'>\"></title></textarea></script><img src=a onerror=alert(1)>	0
+baidu.ting.diy.getNowOfficalList	11.310991212265
+baidu.ting.diy.search	26.407060469056
+baidu.ting.favorite.addAlbumFavorite	48.508875739645
+baidu.ting.game.gameplay	212.66666666667
+baidu.ting.mv.getIndexMV	27.530604110247
+baidu.ting.mv.searchMV	84.736728255971
+baidu.ting.plaza.getFocusPic\';alert(1);\'	1
+baidu.ting.plaza.getPartDesc	16.803078701591
+baidu.ting.plaza.getRecommendAlbum--></script><script>alert(1)</script>	0.5
+baidu.ting.plaza.getRecommendAlbum\'>\\\';</script>>\\\"><script>alert(1)</script>\'	0.5
+baidu.ting.plaza.getRecommendAlbumabcdc>>>>>\'\'\'\'\'\"\"\"\"\";;;	0.5
+baidu.ting.search.getPhotoInfo	11.212762183766
+baidu.ting.search.lrcyss	71.958163246286
+baidu.ting.song.baseInfo	13.573065939763
+baidu.ting.song.lry>\'>\"><script>alert(1)</script>	0.5
+baidu.ting.song.lry\";alert(1);\"	2
+baidu.ting.song.play--></script><script>alert(1)</script>	1
+baidu.ting.song.play\"><img src=1 onerror=alert(1)>	1
+baidu.ting.user.activate	1.2553846153846
+baidu.ting.user.registToUC	2.1437715308948
+baidu.ting.video.recMv	168.33795493934
+data://text/plain;base64,W0hlbGxvIEFpc2h5XQ==	0
+ting.baidu.mv.searchMV	30
+baidu.ting.album.getAlbumInfo</textarea></title><script>alert(1)</script>	0.5
+baidu.ting.album.getAlbumInfoabcdc>>>>>\'\'\'\'\'\"\"\"\"\";;;	0
+baidu.ting.album.getAlbumstyle	14.651515151515
+baidu.ting.artist.getInfoList	118.97847769029
+baidu.ting.billboard.billList--></script><script>alert(1)</script>	0
+baidu.ting.billboard.billList\"><img src=1 onerror=alert(1)>	0
+baidu.ting.diy.gedanInfo	24.834918330661
+baidu.ting.diy.getPlaylists	66.71024741874
+baidu.ting.diy.getSongFromOfficalList	28.958940619213
+baidu.ting.diy.upList	60.785407725322
+baidu.ting.favorite.delSongFavorites	67.232731798382
+baidu.ting.plaza.getRecommendAlbum	42.220340708129
+baidu.ting.plaza.getRecommendAlbum\";alert(1);\"	1.5
+baidu.ting.song.audio	141.99616490004
+baidu.ting.song.getHash	0.94736842105263
+baidu.ting.song.getMulInfo	29.750576353057
+baidu.ting.user.regPassport	103.85500950312
+file:///etc/passwd	0.92307692307692
+baide=3	0
+baidu.ting.album.getAlbumInfo	59.658932870573
+baidu.ting.album.getAlbumInfo(\')\'))(\")\'\"\"\"\")	36.5
+baidu.ting.artist.getSongVote	1014.5
+baidu.ting.billboard.billList;alert(1);//	0
+baidu.ting.billboard.catalog	0.12360406091371
+baidu.ting.colorRing.getCode	560.38281979458
+baidu.ting.diy.delListSong	65.11396011396
+baidu.ting.diy.gedanHot	35.376912597446
+baidu.ting.diy.getSimilarGedan	24.834880166239
+baidu.ting.favorite.delSongFavorite	70.710883896139
+baidu.ting.feedback.crash	0.15109163707789
+baidu.ting.plaza.getFocusPic	33.135386619722
+baidu.ting.plaza.getFocusPic\";alert(1);\"	0
+baidu.ting.plaza.getFocusPic\' and \'8281\'=\'8281	1
+baidu.ting.plaza.getNewSongs	60.107122415806
+baidu.ting.song.gepInfos	1
+baidu.ting.song.lry	73.378213514912
+baidu.ting.song.lry%\' and 8281=8281 and \'%\'=\'	0.5
+baidu.ting.song.lry(\')\'))(\")\'\"\"\"\")	59
+baidu.ting.song.lry\' and \'8281\'=\'8281	1
+baidu.ting.song.play<script>confirm(1)</script>	1
+baidu.ting.user.addPassportInfo	307.47169811321
+baidu.ting.user.checkComVersion	1.3873124226499
+baidu.ting.user.getMobileVcode	109.82024359513
+bbidu.ting.user.listenAge	1
+ting.baidu.artistapp.brief	19.616940581542
+ting.baidu.diy.getPlaylist	91.953257324116
+baidu.ting.artist.getInfo	42.458623666323
+baidu.ting.artist.getInfoByName	78.589743589744
+baidu.ting.billboard.billList\'>\\\';</script>>\\\"><script>alert(1)</script>\'	0
+baidu.ting.billboard.billListabcdc>>>>>\'\'\'\'\'\"\"\"\"\";;;	0
+baidu.ting.billboard.billListjavascript:alert(1)	0
+baidu.ting.colorRing.authset	2867.5785639958
+baidu.ting.colorRing.subscribe	5604.3023952096
+baidu.ting.colorRing.toneset	1571.7677725118
+baidu.ting.diy.addList	76.887686062246
+baidu.ting.diy.gedan	34.219584408409
+baidu.ting.diy.getRecommendSpeical	18.771990740741
+baidu.ting.favorite.getCollectSong	72.344198842258
+baidu.ting.favorite.getFavoriteAlbum	143.37394957983
+baidu.ting.favorite.getFavoriteSong	58.602445219151
+baidu.ting.game.gamedetail	16.744876502192
+baidu.ting.plaza.getArtistPlaza	99.76083595763
+baidu.ting.plaza.getFocusPic--></script><script>alert(1)</script>	0
+baidu.ting.plaza.getFocusPicjavascript:alert(1)	0
+baidu.ting.radio.playAction	62.11553120789
+baidu.ting.search.lrcys	63.27412862522
+baidu.ting.song.getSuoSongInfo	63.06204379562
+baidu.ting.song.play	32.360541026725
+baidu.ting.song.play%\' and 8281=8281 and \'%\'=\'	0.5
+baidu.ting.song.play\' and \'8281\'=\'8281	1.3333333333333
+baidu.ting.song.play\') and 8288=8288 and (\'	1
+baidu.ting.song.play\'/**/<scr/**/ipt>/**/>	0.66666666666667
+baidu.ting.tag.getHotTag	19.966955621472
+baidu.ting.user.logout	76.709470685972
+baidu.ting.video.category	0.10759645339085
+baidu.ting.video.play	35.01904912253
+ting.baidu.artistapp.news	16.455555555556
+ting.baidu.artistapp.renum	208.94869053982
+baidu.tine.song.getInfos	17
+baidu.ting.active.start	15.156803943174
+baidu.ting.album.getAlbumInfo;alert(1);//	0
+baidu.ting.album.getAlbumInfo>\'>\"><script>alert(1)</script>	0
+baidu.ting.artist.getHighSongList	43.561133353865
+baidu.ting.billboard.billList	25.138534940335
+baidu.ting.favorite.addSongFavorite	70.737610278558
+baidu.ting.favorite.delAlbumFavorite	36.545454545455
+baidu.ting.mv.getMVCategory	0.16298020954598
+baidu.ting.plaza.getFocusPic(\')\'))(\")\'\"\"\"\")	33
+baidu.ting.plaza.getFocusPic>\'>\"><script>alert(1)</script>	0
+baidu.ting.plaza.getMisNewSong	31.258064516129
+baidu.ting.plaza.getRecommendAlbum</textarea></title><script>alert(1)</script>	1
+baidu.ting.plaza.getRecommendAlbum<script>confirm(1)</script>	1.5
+baidu.ting.plaza.getRecommendAlbum\"><img src=1 onerror=alert(1)>	1
+baidu.ting.plaza.recommend	12.68088711001
+baidu.ting.search.catalogSug	138.34978834287
+baidu.ting.search.suggestion	72.451526053021
+baidu.ting.song.getMulInfos	43.137328010542
+baidu.ting.song.lry\'>\"></title></textarea></script><img src=a onerror=alert(1)>	1
+baidu.ting.song.playAAC	32.190292217516
+baidu.ting.song.playabcdc>>>>>\'\'\'\'\'\"\"\"\"\";;;	1
+baidu.ting.user.RegistToImsg	65.401893055123
+ting.baidu.artistapp.send	343.5
+ting.baidu.billboard.billlist	42
+baidu.ting.album.getAlbumInfo<script>confirm(1)</script>	0
+baidu.ting.album.getAlbumInfojavascript:alert(1)	0
+baidu.ting.artist.getSpecialSongList	155.36730205279
+baidu.ting.artist.getinfo	34.341848442182
+baidu.ting.diy.getOfficialDiyList	26.314018691589
+baidu.ting.favorite.getInfoFromView	79.832369942197
+baidu.ting.game.catalog	0.058823529411765
+baidu.ting.plaza.getFocusPic\'\";alert(1);//	2
+baidu.ting.plaza.getRecommendAlbum%\' and 8281=8281 and \'%\'=\'	0.5
+baidu.ting.plaza.getRecommendAlbum</script><script>alert(1);//	0.5
+baidu.ting.plaza.getRecommendAlbum\') and 8288=8288 and (\'	2.5
+baidu.ting.plaza.recdaily	34.539635609519
+baidu.ting.radio.getChannelSong	44.611147716084
+baidu.ting.search.common	125.34517504596
+baidu.ting.search.getPhotoInfos	17.789173282344
+baidu.ting.search.lrcpic	71.840704228544
+baidu.ting.song.down	27.942120759784
+baidu.ting.song.lry<script>confirm(1)</script>	0
+baidu.ting.song.lryjavascript:alert(1)	1
+baidu.ting.song.play(\')\'))(\")\'\"\"\"\")	7.6666666666667
+baidu.ting.song.play</script><script>alert(1);//	1
+baidu.ting.song.play\'>\"></title></textarea></script><img src=a onerror=alert(1)>	1
+baidu.ting.tag.getAllTag	24.880572331814
+baidu.ting.tag.songlist	44.213138123617
+baidu.ting.user.listenAge	6.3393663229847
+c:/windows/win.ini	0
+ting.baidu.search.lrcpic	86.316725978648
+baidu.ting.album.getAlbumInfo\' and \'8281\'=\'8281	0
+baidu.ting.artist.get72HotArtist	107.55883512169
+baidu.ting.artist.getAlbumList	62.479095933404
+baidu.ting.artist.getHighSongTitle	0.10736514522822
+baidu.ting.artist.getQianQianArtist	51.048563218391
+baidu.ting.billboard.billCategory	13.932499308575
+baidu.ting.billboard.billList(\')\'))(\")\'\"\"\"\")	16.5
+baidu.ting.billboard.billList\' and \'8281\'=\'8281	0.5
+baidu.ting.colorRing.listen	221.08875413451
+baidu.ting.diy.addListSong	84.804734813727
+baidu.ting.favorite.delCollectSong	88.55304930948
+baidu.ting.game.gamelist	0.1209807054317
+baidu.ting.mv.getMultiSongMVInfo	120.9696969697
+baidu.ting.mv.playMV	42.398309845967
+baidu.ting.outerPassport.profile	111.78048780488
+baidu.ting.plaza.getFocusPic%\' and 8281=8281 and \'%\'=\'	1
+baidu.ting.plaza.getFocusPic;alert(1);//	0
+baidu.ting.plaza.getFocusPic\') and 8288=8288 and (\'	0.5
+baidu.ting.song.cloud	82.034229175023
+baidu.ting.song.getInfos	31.531427326892
+baidu.ting.song.lry</script><script>alert(1);//	1
+baidu.ting.song.lry\') and 8288=8288 and (\'	0.5
+baidu.ting.song.playjavascript:alert(1)	1.5
+baidu.ting.user.getMessage	16.598874246805
+ting.baidu.artist.getAlbumList	11
+ting.baidu.plaza.getFocusPic	31.106896551724
+baidu.ting.album.getAlbumInfo\'>\\\';</script>>\\\"><script>alert(1)</script>\'	0
+baidu.ting.album.getAlbumInfo\'\";alert(1);//	0
+baidu.ting.album.getList	251.90653634698
+baidu.ting.billboard.billList\'\";alert(1);//	0
+baidu.ting.diy.addListenCount	23.9586054051
+baidu.ting.diy.delList	74.008212106992
+baidu.ting.favorite.addSongFavorites	108.8201683903
+baidu.ting.favorite.getListenHistory	48.090659340659
+baidu.ting.feedback.info	41.145704467354
+baidu.ting.plaza.getFocusPic</textarea></title><script>alert(1)</script>	1
+baidu.ting.plaza.getFocusPic\"><img src=1 onerror=alert(1)>	1
+baidu.ting.plaza.getRecommendAlbum>\'>\"><script>alert(1)</script>	2
+baidu.ting.plaza.getRecommendAlbum\'>\"></title></textarea></script><img src=a onerror=alert(1)>	0
+baidu.ting.song.lry--></script><script>alert(1)</script>	1
+baidu.ting.song.play;alert(1);//	0.66666666666667
+baidu.ting.song.play>\'>\"><script>alert(1)</script>	1
+baidu.ting.song.play\";alert(1);\"	1
+baidu.ting.song.play\';alert(1);\'	0.5
+baidu.ting.user.checkSuggestVersion	1.1847112745144
+baidu.ting.user.config	1.2029227360263
+baidu.ting.user.down	20.942842769029
+ting.baidu.artistapp.briefs	16.863636363636
+ting.baidu.diy.getPlaylists	63.385624807175
+baidu.ting.album.getAlbumInfo</script><script>alert(1);//	0.5
+baidu.ting.album.getAlbumInfo\";alert(1);\"	0
+baidu.ting.album.getAlbumInfo\') and 8288=8288 and (\'	0
+baidu.ting.album.getAlbumInfo\';alert(1);\'	0
+baidu.ting.billboard.billList%\' and 8281=8281 and \'%\'=\'	0
+baidu.ting.billboard.billList</script><script>alert(1);//	0
+baidu.ting.diy.category	1.8669654511718
+baidu.ting.diy.getPlaylist	94.753959814183
+baidu.ting.favorite.isCollect	5.1357474241807
+baidu.ting.feedback.song	0.1314382575013
+baidu.ting.plaza.active	1.2550693224438
+baidu.ting.plaza.getFocusPic</script><script>alert(1);//	0
+baidu.ting.plaza.getFocusPic\'>\"></title></textarea></script><img src=a onerror=alert(1)>	0
+baidu.ting.plaza.getRecommendAlbum\'\";alert(1);//	0.5
+baidu.ting.plaza.getRecommendAlbumjavascript:alert(1)	0.5
+baidu.ting.radio.getArtistChannelSong	44.491404549208
+baidu.ting.radio.getFavoriteSong	193.55822815932
+baidu.ting.song.lry;alert(1);//	1.5
+baidu.ting.song.lry\';alert(1);\'	2
+baidu.ting.song.play</textarea></title><script>alert(1)</script>	1
+baidu.ting.song.play\'>\\\';</script>>\\\"><script>alert(1)</script>\'	1
+baidu.ting.song.play\'\";alert(1);//	1
+baidu.ting.user.login	153.59731543624
+baidu.ting.user.nplogin	108.99897308003
+ting.baidu.artistapp.newList	16.615384615385
+ting.baidu.film.getFilmInfo	43.30288891095
+baidu.ting.album.getAlbumInfo--></script><script>alert(1)</script>	0
+baidu.ting.album.getAlbumInfo\"><img src=1 onerror=alert(1)>	0.5
+baidu.ting.artist.getList	26.176142811328
+baidu.ting.billboard.billList</textarea></title><script>alert(1)</script>	0
+baidu.ting.billboard.billList<script>confirm(1)</script>	0
+baidu.ting.diy.saveList	99.655641370047
+baidu.ting.favorite.getOffenListenList	39.190889370933
+baidu.ting.plaza.getFocusPic<script>confirm(1)</script>	0
+baidu.ting.plaza.getFocusPic\'>\\\';</script>>\\\"><script>alert(1)</script>\'	0
+baidu.ting.plaza.getFocusPicabcdc>>>>>\'\'\'\'\'\"\"\"\"\";;;	1
+baidu.ting.plaza.getRecommendAlbum(\')\'))(\")\'\"\"\"\")	33.5
+baidu.ting.plaza.getRecommendAlbum;alert(1);//	0
+baidu.ting.plaza.getRecommendAlbum\' and \'8281\'=\'8281	1
+baidu.ting.plaza.getRecommendAlbum\';alert(1);\'	0.5
+baidu.ting.radio.getCategoryList	52.083316344178
+baidu.ting.radio.serv	158.06539950722
+baidu.ting.song.buffer	28.657260715512
+baidu.ting.song.get	0
+baidu.ting.song.getInfo	19.22928721533
+baidu.ting.song.lry</textarea></title><script>alert(1)</script>	1
+baidu.ting.song.lry\"><img src=1 onerror=alert(1)>	0.5
+baidu.ting.song.lry\'>\\\';</script>>\\\"><script>alert(1)</script>\'	1
+baidu.ting.song.lry\'\";alert(1);//	0
+baidu.ting.song.lryabcdc>>>>>\'\'\'\'\'\"\"\"\"\";;;	1
+baidu.ting.user.checkVersion	1.1219743069642
+baidu.ting.user.getUserBaseInfo	107.41258932603
+baidu.ting.video.getList	27.694062185864
+ting.baidu.plaza.recdaily	34.688913339662
