@@ -14,6 +14,9 @@ class DB_Model{
 			return false;
 		}
 		$insertID = DB::Insert($table, $condition,$duplicateCondition,$this->writeDB);
+		if(!$insertID){
+			$this->error = DB::$error;
+		}
 		return $insertID;	
 	}
 	
@@ -30,6 +33,9 @@ class DB_Model{
 	
 	public function update($condition,$updateRow){
 		$result = DB::Update($this->tableName, $condition, $updateRow,$this->writeDB);
+		if(!$result){
+			$this->error = DB::$error;
+		}
 		return $result;
 	}
 	
@@ -53,6 +59,14 @@ class DB_Model{
 		$option =array('one' => $one);
 		
 		$result = DB::LimitQuery($this->tableName,$condition,$option,$this->readDB);
+		if(!$result){
+			$this->error = DB::$error;
+		}
+		return $result;
+	}
+	
+	public function delete($condition){
+		$result = DB::Delete($this->tableName, $condition,$this->writeDB);
 		if(!$result){
 			$this->error = DB::$error;
 		}

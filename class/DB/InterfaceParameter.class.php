@@ -1,4 +1,4 @@
 <?php
-class DB_InterfaceParamter extends DB_Model{
-	public $table = 'interface_parameter';
+class DB_InterfaceParameter extends DB_Model{
+	public $tableName = 'interface_parameter';
 }

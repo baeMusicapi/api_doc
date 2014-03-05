@@ -1,0 +1,47 @@
+{include file="admin/header.html"}
+<div class="inside_nav">
+	<ul class="nav nav-tabs">
+	  <li><a href="/admin/category/index.php">列表</a></li>
+	  <li class="active"><a href="#">创建/修改</a></li>
+	</ul>
+</div>
+
+<div>
+	<form class="form-horizontal" action="" method="POST">
+		<input type="hidden" name="category_id" value="{$categoryID}" />
+		
+		<div class="form-group">
+			<label class="col-md-2 control-label">名称</label>
+		    <div class="col-md-4">
+		    	<input name="name" type="text" class="form-control"  placeholder="song.." value="{$category['name']}">
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-md-2 control-label">Title</label>
+		    <div class="col-md-4">
+		    	<input name="title" type="text" class="form-control"  placeholder="歌曲.." value="{$category['title']}">
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-md-2 control-label">类型</label>
+		    <div class="col-md-2">
+		    	<select class="form-control" name="type" >
+		    		{foreach $categoryTypes as $typeInfo}
+		    		<option value="{$typeInfo['value']}" {if $category['type'] == $typeInfo['value']} selected{/if}>{$typeInfo['name']}</option>
+		    		{/foreach}
+		    	</select>
+			</div>
+		</div>
+		
+		<input type="submit" class="btn btn-info" value="提交"/>
+		{if $_GET['success']}
+		<a href="/admin/category/update.php" class="btn btn-success" />继续创建</a>
+		{/if}
+	</form>
+
+</div>
+
+
+{include file="admin/footer.html"}

@@ -1,4 +1,4 @@
 <?php
 class DB_ErrorCode extends DB_Model{
-	public $table = 'error_code';
+	public $tableName = 'error_code';
 }

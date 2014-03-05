@@ -1,0 +1,40 @@
+.sidebar{
+	padding-top: 50px;
+	width:150px;
+}
+
+.admin_main{
+	padding-top:40px;
+}
+
+.inside_nav{
+	margin-bottom:10px;
+}
+
+.admin_table{
+	width: 900px;
+}
+
+
+.header{
+	background:#660099;
+	color:#FFFFFF;
+	padding:10px 30px 10px 20px;
+	margin-bottom:10px;
+}
+
+.header h3{
+	margin:5px 0 0px 5px;
+}
+
+.main{
+	
+}
+
+.paramter_list{
+	
+}
+
+.interface_result{
+	padding:30px;
+}

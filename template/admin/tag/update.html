@@ -1,0 +1,30 @@
+{include file="admin/header.html"}
+<div class="inside_nav">
+	<ul class="nav nav-tabs">
+	  <li><a href="/admin/tag/index.php">列表</a></li>
+	  <li class="active"><a href="#">创建/修改</a></li>
+	</ul>
+</div>
+
+<div>
+	<form class="form-horizontal" action="" method="POST">
+		<input type="hidden" name="tag_id" value="{$tagID}" />
+		
+		<div class="form-group">
+			<label class="col-md-2 control-label">名称</label>
+		    <div class="col-md-4">
+		    	<input name="name" type="text" class="form-control"  placeholder="只有名称" value="{$tag['name']}">
+			</div>
+		</div>
+ 
+		
+		<input type="submit" class="btn btn-info" value="提交"/>
+		{if $_GET['success']}
+		<a href="/admin/tag/update.php" class="btn btn-success" />继续创建</a>
+		{/if}
+	</form>
+
+</div>
+
+
+{include file="admin/footer.html"}

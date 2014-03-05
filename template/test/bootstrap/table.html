@@ -1,0 +1,103 @@
+{include file="header.html"}
+<div class="container">
+<h1>表格样式 <small>多个表格class</small></h1>
+<div class="row">
+	<div class="col-md-6">
+		<table class="table">
+	        <thead>
+	          <tr> <th>#(thead 包围)</th> <th>正常表格</th> <th>Last Name</th> <th>User Name</th> </tr>
+	        </thead>
+	        <tbody>
+	          <tr> <td>1(tbody 包围)</td> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr>
+	          <tr class="active">  <td>active tr</td> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr>
+	          <tr class="success"> <td>success tr</td> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr>
+	          <tr class="warning"> <td>warning tr</td> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr>
+	          <tr class="danger">  <td>danger tr</td> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr>
+	          <tr> <td class="active">active</td> <td class="success">success</td> <td class="warning">warning</td> <td class="danger">danger</td> </tr>
+	          
+	         </tbody>
+		</table>
+
+		<table class="table table-striped">
+	        <thead>
+	          <tr> <th>#(thead 包围)</th> <th>条纹表格</th> <th>class= table-striped</th> <th>User Name</th> </tr>
+	        </thead>
+	        <tbody>
+	          <tr> <td>1(tbody 包围)</td> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr>
+	          <tr> <td>2</td>	<td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr>
+	          <tr> <td>3</td>	<td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr>
+	         </tbody>
+		</table>
+		     
+	</div>
+	
+	<div class="col-md-6">
+		<table class="table table-bordered">
+	    	<thead>
+	          <tr>
+	            <th>#(thead 包围)</th>
+	            <th>边框表格 </th>
+	            <th>class= table-bordered</th>
+	            <th>User Name</th>
+	          </tr>
+	        </thead>
+	        <tbody>
+	          <tr>
+	            <td>1(tbody 包围)</td>
+	            <td>Mark</td>
+	            <td>Otto</td>
+	            <td>@mdo</td>
+	          </tr>
+	          <tr>
+	            <td>2</td>
+	            <td>Jacob</td>
+	            <td>Thornton</td>
+	            <td>@fat</td>
+	          </tr>
+	         </tbody>
+		</table>	
+		
+		<table class="table table-hover">
+	    	<thead>
+	          <tr> 
+	          	<th>#(thead 包围)</th> <th>悬停效果</th> <th>class= table-hover</th> <th>User Name</th>
+	          </tr>
+	        </thead>
+	        <tbody>
+	          <tr> 
+	          	<td>1(tbody 包围)</td> <td>Mark</td> <td>Otto</td> <td>@mdo</td>
+	          </tr>
+	          <tr> 
+	          	<td>2</td>	<td>Jacob</td> <td>Thornton</td> <td>@fat</td>
+	          </tr>
+	         </tbody>
+		</table>
+		
+		<table class="table table-condensed">
+	    	<thead>
+	          <tr> <th>#(thead 包围)</th> <th>紧缩效果</th> <th>class= table-condensed</th> <th>User Name</th> </tr>
+	        </thead>
+	        <tbody>
+	          <tr> <td>1(tbody 包围)</td> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr>
+	          <tr> <td>2</td>	<td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr>
+	         </tbody>
+		</table>
+	</div>
+</div>
+
+
+		<div class="table-responsive">
+		<table class="table">
+	        <thead>
+	          <tr> <th>响应表格</th> <th>外表加一层div</th> <th>class=table-responsive</th> <th>User Name</th> </tr>
+	        </thead>
+	        <tbody>
+	          <tr> <td>1(tbody 包围)</td> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr>
+	          <tr> <td>2</td>	<td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr>
+	          <tr> <td>3</td>	<td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr>
+	         </tbody>
+		</table>
+		</div>
+		
+</div>
+{include file="footer.html"}

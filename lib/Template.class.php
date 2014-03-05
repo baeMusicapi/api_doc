@@ -33,6 +33,7 @@ class Template{
 		$smarty->setCompileDir(COMPILE_PATH);
 		$smarty->setConfigDir(CONF_PATH);
 		$smarty->setCacheDir(CACHE_PATH);
+		$smarty->php_handling = Smarty::PHP_ALLOW;
 		return $smarty;
 	}
 	

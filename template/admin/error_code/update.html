@@ -1,0 +1,55 @@
+{include file="admin/header.html"}
+<div class="inside_nav">
+	<ul class="nav nav-tabs">
+	  <li><a href="/admin/error_code/index.php">列表</a></li>
+	  <li class="active"><a href="#">创建/修改</a></li>
+	</ul>
+</div>
+
+<div>
+	<form class="form-horizontal" action="" method="POST">
+		
+		<div class="form-group">
+			<label class="col-md-2 control-label">错误码</label>
+		    <div class="col-md-4">
+		    	<input name="code" type="text" class="form-control"  placeholder="22000.." value="{$errorCode['code']}">
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-md-2 control-label">Title</label>
+		    <div class="col-md-4">
+		    	<input name="title" type="text" class="form-control"  placeholder="错误名称" value="{$errorCode['title']}">
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-md-2 control-label">分类</label>
+		    <div class="col-md-2">
+		    	<select class="form-control" name="category_id" >
+		    		<option value="0"> 无 </option>
+		    		{foreach $errorCodeCategoryList as $categoryID => $category}
+		    			<option value="{$categoryID}" {if $categoryID==$errorCode['category_id']}selected{/if}> {$category['title']}</option>
+		    		{/foreach}
+		    	</select>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="col-md-2 control-label">简单描述</label>
+		    <div class="col-md-4">
+		    	<textarea class="form-control" name="comment" rows="2">{$errorCode['comment']}</textarea>
+			</div>
+		</div>
+		
+		
+		<input type="submit" class="btn btn-info" value="提交"/>
+		{if $_GET['success']}
+		<a href="/admin/tag/update.php" class="btn btn-success" />继续创建</a>
+		{/if}
+	</form>
+
+</div>
+
+
+{include file="admin/footer.html"}

@@ -18,7 +18,18 @@ class Utility{
 		return $random;
 	}
 	
+	public static function getRequestURI(){
+		$server = $_SERVER;
+		return $server['REQUEST_URI'];
+	}
 	
+	
+	public static function Redirect($url=null){
+		if (!$url) $u = $_SERVER['HTTP_REFERER'];
+		if (!$url) $u = '/';
+		Header("Location: {$url}");
+		exit;
+	}
 	
 	//////////辅助函数
 	private static function _GenRandomChar($type = self::CHAR_MIX,$index = 0){

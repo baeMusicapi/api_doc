@@ -28,45 +28,24 @@ class DB{
 			return $result;
 		} else {
 			self::$error = $dbObject->error;
+			return false;
 		}
 	}
 	
 	static public function Insert ($table, $condition, $duplicateCondition = null, $dbType = null) {
-		 
+		$dbType = $dbType ? $dbType : self::DB_TYPE_RW;
 		$sql = "INSERT INTO `$table` SET ";
-		$content = null;
-		foreach ( $condition as $k => $v ) {
-			$v_str = null;
-			if (is_numeric ( $v ))
-				$v_str = "'{$v}'";
-			else if (is_null ( $v ))
-				$v_str = 'NULL';
-			else
-				$v_str = "'" . self::EscapeString ($v, $dbType) . "'";
-	
-			$content .= "`$k`=$v_str,";
-		}
-		 
-		$content = trim ( $content, ',' );
+		$content = self::BuildUpdateCondition($condition);
+		
 		$sql .= $content;
+		
 		if ($duplicateCondition) {
-			$sql .= " ON DUPLICATE KEY UPDATE ";
-			foreach ( $duplicateCondition as $k => $v ) {
-				$v_str = null;
-				if (is_numeric ( $v ))
-					$v_str = "'{$v}'";
-				else if (is_null ( $v ))
-					$v_str = 'NULL';
-				else if (is_array ( $v ))
-					$v_str = $v [0];
-				else
-					$v_str = "'" . self::EscapeString ($v, $dbType) . "'";
-				 
-				$sql .= "`$k`=$v_str,";
+			$duplicateCondition = self::BuildUpdateCondition($duplicateCondition,$dbType);
+			if($duplicateCondition){
+				$sql .= " ON DUPLICATE KEY UPDATE {$duplicateCondition}";
 			}
-			$sql = trim ( $sql, ',' );
 		}
-		 
+		
 		$result = self::Query ($sql,$dbType);
 		if ( false == $result) {
 			return false;
@@ -135,8 +114,32 @@ class DB{
 		return self:: GetQueryResult ( $sql, $one);
 	}
 	
+	public static function Update($table,$condition,$updateRow,$dbType = null){
+		$dbType = $dbType ? $dbType : self::DB_TYPE_RW;
+		$condition = self::BuildCondition($condition,'AND',$dbType);
+		$updateRow = self::BuildUpdateCondition($updateRow);
+		
+		$sql = "UPDATE `{$table}` SET {$updateRow} ";
+		if($condition){
+			$sql .= " WHERE {$condition}";
+		}
+		return self::Query($sql,$dbType);
+	}
+	
+	public static function Delete($table,$condition,$dbType = null){
+		$dbType = $dbType ? $dbType : self::DB_TYPE_RW;
+		$condition = self::BuildCondition($condition,'AND',$dbType);
+		
+		$sql = "DELETE FROM `{$table}` ";
+		if($condition){
+			$sql .= " WHERE {$condition}";
+		}
+		return self::Query($sql,$dbType);
+	}
+	
 	
 	static public function BuildCondition ($condition = array(), $logic = 'AND',$dbType = null) {
+		$logic = $logic ? $logic : 'AND';
 		if (is_string ( $condition ) || is_null ( $condition ))
 			return $condition;
 		 
@@ -170,7 +173,7 @@ class DB{
 						if (is_numeric ( $one )) {
 							$v_str .= ',\'' . $one . '\'';
 						} else {
-							$v_str .= ',\'' . self::EscapeString ( $one ) . '\'';
+							$v_str .= ',\'' . self::EscapeString ( $one ,$dbType) . '\'';
 						}
 					}
 					$v_str = '(' . trim ( $v_str, ',' ) . ')';
@@ -182,11 +185,11 @@ class DB{
 					$v_connect = array_shift ( array_keys ( $v ) );
 					$v_connect = preg_replace ( '/[\#\;\=\s]+/', '', $v_connect );
 					$v_s = array_shift ( array_values ( $v ) );
-					$v_str = "'" . self::EscapeString ( $v_s ) . "'";
+					$v_str = "'" . self::EscapeString ( $v_s ,$dbType) . "'";
 					$v_str = is_numeric ( $v_s ) ? "'{$v_s} '" : $v_str;
 				}
 			} else {
-				$v_str = "'" . self::EscapeString ( $v ) . "'";
+				$v_str = "'" . self::EscapeString ( $v ,$dbType) . "'";
 			}
 	
 			$content .= " $logic `$k` $v_connect $v_str ";
@@ -197,6 +200,35 @@ class DB{
 		$content = trim ( $content );
 		 
 		return $content;
+	}
+	
+	public static function BuildUpdateCondition($condition = array(),$dbType = null){
+		if(is_string($condition)){
+			return $condition;
+		}
+		 
+		if(!Util_Array::IsArrayValue($condition)){
+			return '';
+		}
+		
+		$conditionStr = '';
+		foreach ($condition as $key => $value){
+			if(is_numeric($value)){
+				$value = "'{$value}'";
+			} else if(is_null($value)){
+				$value = 'NULL';
+			} else if(is_array($value)){
+				$value = implode(',', $value);
+				$value = self::EscapeString($value,$dbType);
+				$value = "'{$value}'";
+			} else {
+				$value = self::EscapeString($value,$dbType);
+				$value = "'{$value}'";
+			}
+			$conditionStr .= "`{$key}` = {$value},";
+		}
+		$conditionStr = trim($conditionStr,',');
+		return $conditionStr;
 	}
 	
 	static public function GetInsertID($dbType = null) {
@@ -290,7 +322,7 @@ class DBObject{
 			$rowNum = mysql_affected_rows($this->_connection);
 			$count = $this->count;
 			echo "
-			[{$count}][ROW:{$rowNum}][time:{$duration}]{$sql} <br>\n		
+			<pre>[{$count}][ROW:{$rowNum}][time:{$duration}]{$sql} </pre>
 			";
 		}
 		if($result){

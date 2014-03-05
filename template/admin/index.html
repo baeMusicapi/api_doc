@@ -1,0 +1,13 @@
+{include file="admin/header.html"}
+
+<h2>欢迎访问API文档<small>统计页</small></h2>
+<div class="panel panel-success">
+	<div class="panel-heading">后台统计</div>
+		<div class="panel-body">  
+			<p><b>接口总数</b>: {$interfaceStatis['amount']}<p>
+			{foreach $interfaceStatis['category_amount'] as $catgoryID => $camount}
+				<p><b>{$categoryList[$catgoryID]['name']}({$categoryList[$catgoryID]['title']})</b> : {$camount}</p>
+			{/foreach}
+	</div>
+</div>
+{include file="admin/footer.html"}

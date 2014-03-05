@@ -1,5 +1,86 @@
 {include file="header.html"}
 
-{dump($test)}
+
+<div class="row">
+	<div class="col-md-2" >
+		<div class="bs-sidebar" id="side_bar" data-spy="affix" >
+			<ul class="nav  bs-sidenav text-center">
+			  <li>
+			  <a href="#api">API接口</a>
+			  	<ul class="nav" id="nav_api">
+			  	{foreach $showApiCategoryList as $category}
+			  		<li><a href="#api-{$category['id']}">{$category['name']}{{$category['title']}} </a></li>
+			  	{/foreach}
+			  	</ul>
+			  	
+			  </li>
+			  
+			  <li>
+			  	<a href="#error_code">ErrorCode</a>
+			  	<ul class="nav" id="nav_error_code">
+			  	{foreach $showErrorCategoryList as $category}
+			  		<li><a href="#error-{$category['id']}">{$category['name']}{{$category['title']}} </a></li>
+			  	{/foreach}
+			  	</ul>
+			  </li>
+			  
+			</ul>
+		</div>
+	</div>
+	
+	<div class="col-md-10 "  id="main">
+		<h3 id="api" class="category_header">接口列表</h3>
+		{foreach $showApiCategoryList as $category}
+			<h4 id="api-{$category['id']}">{$category['name']} <small>{$category['title']}</small></h4>
+			<ul>
+				{foreach $category['api'] as $api}
+				<li><a href="/interface/info.php?interface_id={$api['id']}" target="_blank">{$api['name']} {$api['title']}</a></li>
+				{/foreach}
+			</ul>
+		{/foreach}
+		
+		<hr />
+		<h3 id="error_code" class="category_header">错误列表</h3>
+		{foreach $showErrorCategoryList as $category}
+			<h4 id="error-{$category['id']}">{$category['name']} <small>{$category['title']}</small></h4>
+			<ul>
+				{foreach $category['error_code'] as $error}
+				<li><a href="">{$error['code']} {$error['title']}</a></li>
+				{/foreach}
+			</ul>
+		{/foreach}
+		
+		
+	</div>
+
+</div>
+
 
 {include file="footer.html"}
+<script type="text/javascript">
+updateSideBar();
+window.onscroll = updateSideBar;
+
+
+function updateSideBar(){
+	$rollSideBar = $("#side_bar");
+	$mainSide = $("#main .category_header");
+	var sideBarTop = $rollSideBar.offset().top;
+	
+	len = $mainSide.length;
+	for(i = 0; i< len;i++){
+		$current = $($mainSide[i])
+		var currentTop = $current.offset().top;
+		if(sideBarTop <= currentTop + 150){
+			$currentID = $current.attr('id');
+			$("#side_bar ul ul").hide();
+			$("#side_bar li").removeClass('active');
+			$("#nav_"+$currentID).show();
+			$("a[href='#"+$currentID+"']").parent().attr("class","active")
+			return;		
+		}
+	}
+}
+
+
+</script>

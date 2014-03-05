@@ -1,0 +1,22 @@
+{include file="admin/header.html"}
+<div class="inside_nav">
+	<ul class="nav nav-tabs">
+	  <li class="active"><a href="#">列表</a></li>
+	  <li><a href="/admin/category/update.php">创建/修改</a></li>
+	</ul>
+</div>
+
+<div>
+	<h2 class="text-center"><small>分类列表</small></h2>
+	<div class=" navbar btn-group navbar-header">
+		<a  href="/admin/category/index.php" class="btn btn-default {if !$type} active {/if}">全部</a>
+		{foreach $categoryTypes as $categoryType}
+		<a href="/admin/category/index.php?type={$categoryType['value']}" class="btn btn-default {if $type==$categoryType['value']} active {/if}">{$categoryType['name']}</a>
+		{/foreach}
+	</div>
+	
+	{$tableHtml}
+</div>
+
+
+{include file="admin/footer.html"}

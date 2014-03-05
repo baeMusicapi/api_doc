@@ -3,8 +3,40 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link type="text/css" rel="stylesheet" href="/static/css/bootstrap.css" />
+<link type="text/css" rel="stylesheet" href="/static/css/main.css" />
 <script src="/static/js/jquery-1.11.0.js"></script>
 <script src="/static/js/bootstrap.js"></script>
+<script src="/plugins/ueditor/ueditor.parse.js"></script>
 <title>{$title}</title>
 </head>
 <body>
+
+	<div class="header">
+		<div class="row">
+			<div class="col-md-2">
+				<h3>API 文档系统</h3>
+			</div>
+			<div class="col-md-2 pull-right">
+				<a href="/admin" class="btn btn-success"><span class="glyphicon glyphicon-hand-right"></span> 提点建议 </a>
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+	</div>
+	
+<div class="container">
+	{include file="top_bar.html"}
+	
+	{if $adminEnv['error']=Lib_System::GetError()}
+		<div class="alert alert-danger alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		<strong>Warning!</strong> {$adminEnv['error']}
+		</div>
+	{/if}
+			
+	{if $adminEnv['notice']=Lib_System::GetNotice()}
+		<div class="alert alert-success alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		<strong>Heads up!</strong> {$adminEnv['notice']}
+		</div>			
+	{/if}

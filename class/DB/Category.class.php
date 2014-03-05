@@ -1,4 +1,4 @@
 <?php
 class DB_Category extends DB_Model{
-	public $table = 'category';
+	public $tableName = 'category';
 }

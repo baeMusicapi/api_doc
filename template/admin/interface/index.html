@@ -1,0 +1,22 @@
+{include file="admin/header.html"}
+<div class="inside_nav">
+	<ul class="nav nav-tabs">
+	  <li class="active"><a href="#">列表</a></li>
+	  <li><a href="/admin/interface/update.php">创建</a></li>
+	</ul>
+</div>
+
+<div>
+	<h3 class="text-center"><small>接口列表</small></h3>
+	<div class=" navbar btn-group navbar-header">
+		<a  href="/admin/interface/index.php" class="btn btn-default {if !$categoryID} active {/if}">全部</a>
+		{foreach $categoryList as $category}
+		<a href="/admin/interface/index.php?category_id={$category['id']}" class="btn btn-default {if $categoryID==$category['id']} active {/if}">{$category['name']}</a>
+		{/foreach}
+	</div>
+	
+	{$tableHtml}
+</div>
+
+
+{include file="admin/footer.html"}
