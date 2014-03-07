@@ -1,0 +1,23 @@
+{include file="header.html"}
+
+	
+	<div class="row">
+		<div class="col-md-2">
+		{include file="error_category.html"}
+		</div>
+		
+		<div class="col-md-8">
+		
+			<ol class="breadcrumb">
+			  <li><a href="/">Home</a></li>
+			  <li><a href="/error_code/index.php">错误码</a></li>
+			  {if $categoryID > 0}<li><a href="/error_code/index.php">{$categoryList[$categoryID]['title']}</a></li>{/if}
+			</ol>
+	
+			{$htmlTable}
+		</div>
+	</div>
+
+
+
+{include file="footer.html"}

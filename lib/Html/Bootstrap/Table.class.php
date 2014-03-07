@@ -13,6 +13,9 @@ class Html_Bootstrap_Table{
 	}
 	
 	public function setTableInfo($key_array){
+		if(!Util_Array::IsArrayValue($key_array)){
+			return false;
+		}
 		$th_array = array();
 		$td_array = array();
 		foreach ($key_array as $index => $one){
