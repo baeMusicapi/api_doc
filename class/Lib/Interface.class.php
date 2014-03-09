@@ -9,7 +9,18 @@ class Lib_Interface{
 	public static $error;
 	
 	public static function Search($keyWord){
+		$dbInterface = new DB_Interface();
 		
+		$condition = array(
+			"or" => array(
+				"locate('{$keyWord}',name)",
+				"locate('{$keyWord}',title)",
+				"locate('{$keyWord}',introduction)",
+			),
+		);
+		
+		$result = $dbInterface->get($condition);
+		return $result;
 	}
 	
 	public static function Create($interfaceInfo){
@@ -21,7 +32,6 @@ class Lib_Interface{
 		unset($interface['parameters']);
 		
 		$insertID = $dbInterface->create($interface);
-		
 		if($insertID){
 			foreach ($paramters as $paramter){
 				$paramter['interface_id'] = $insertID;

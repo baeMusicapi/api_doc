@@ -33,10 +33,6 @@ class Lib_Category{
 		return $result;
 	}
 	
-	public static function Search($keyWord){
-		
-	}
-	
 	public static function getCategoryList($type = null,$offSet = 0,$size = 0){
 		$dbObj = new DB_Category();
 		$condition = array(
@@ -78,5 +74,23 @@ class Lib_Category{
 	
 	public static function getTypesInfo(){
 		return self::$typeArray;
+	}
+	
+	public static function Search($keyWord,$type = self::TYPE_API){
+		$dbCategory = new DB_Category();
+		
+		$condition = array(
+				"or" => array(
+						"locate('{$keyWord}',name)",
+						"locate('{$keyWord}',title)",
+				),
+		);
+		
+		if($type){
+			$condition['type'] = self::TYPE_API;
+		}
+		
+		$result = $dbCategory->get($condition);
+		return $result;		
 	}
 }

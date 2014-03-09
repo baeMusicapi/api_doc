@@ -87,6 +87,10 @@ class Html_Bootstrap_Table{
 				if($one['tr_class']){
 					$class =" class='{$one['tr_class']}'";
 				}
+				
+				if($one['tr_id']){
+					$class =" id='{$one['tr_id']}'";
+				}
 				$row_str .= "<tr {$class}>{$td_str}</tr>";
 			}
 		}

@@ -68,4 +68,19 @@ class Lib_ErrorCode{
 		
 		return $categortList;
 	}
+	
+	public static function search($keyWord){
+		$dbObj = new DB_ErrorCode();
+		
+		$condition = array(
+				"or" => array(
+						"locate('{$keyWord}',code)",
+						"locate('{$keyWord}',title)",
+						"locate('{$keyWord}',comment)",
+				),
+		);
+		
+		$result = $dbObj->get($condition);
+		return $result;		
+	}
 }

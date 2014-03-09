@@ -13,6 +13,7 @@ $errorCodeList = Lib_ErrorCode::GetList($categoryID);
 
 foreach ($errorCodeList as &$errorCode){
 	$errorCode['category'] = $categoryList[$errorCode['category_id']]['title'];
+	$errorCode['tr_id'] = "error_code_id_{$errorCode['id']}";
 }
 
 $thInfo = array(

@@ -16,4 +16,5 @@ class DB_Interface extends DB_Model{
 		$updateRow['update_time'] = $updateRow['update_time'] ? $updateRow['update_time'] : time();
 		return parent::update($condition, $updateRow);
 	} 
+	
 }

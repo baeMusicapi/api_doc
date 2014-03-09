@@ -17,14 +17,14 @@
 				<h3>API 文档系统</h3>
 			</div>
 			<div class="col-md-2 pull-right">
-				<a href="/admin" class="btn btn-success"><span class="glyphicon glyphicon-hand-right"></span> 提点建议 </a>
+				<a href="/suggest.php" class="btn btn-success" target="_blank" ><span class="glyphicon glyphicon-hand-right"></span> 提点建议 </a>
 			</div>
 		</div>
 
 		<div class="clearfix"></div>
 	</div>
-	
-<div class="container">
+<div class="main">	
+	<div class="container">
 	{include file="top_bar.html"}
 	
 	{if $adminEnv['error']=Lib_System::GetError()}

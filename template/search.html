@@ -1,0 +1,52 @@
+{include file="header.html"}
+
+	<div class="row">
+		
+		<div class="col-md-10">
+		
+			<ol class="breadcrumb">
+			  <li><a href="/">Home</a></li>
+			  <li><a href="#">检索</a></li>
+			</ol>
+			
+		{if $interfaceList}
+			<div class="search_interface">
+				<h4 class="text-success">接口检索</h4>
+				<dl class="dl-horizontal">
+				{foreach $interfaceList as $interface}
+				  <dt><a href="/interface/info.php?interface_id={$interface['id']}" target="_blank">{$interface['name']}</a></dt>
+				  <dd>{$interface['title']}</dd>
+				{/foreach}
+				</dl>
+			</div>
+		{/if}
+
+		{if $categoryList}
+			<div class="search_category">
+				<h4 class="text-success">分类检索</h4>
+				<dl class="dl-horizontal">
+				{foreach $categoryList as $category}
+				  <dt><a href="/interface/index.php?category_id={$category['id']}" target="_blank">{$category['name']}</a></dt>
+				  <dd>{$category['title']}分类</dd>
+				{/foreach}
+			   </dl>
+			</div>
+		{/if}
+
+
+		{if $errorList}	
+			<div class="search_error">
+				<h4 class="text-success">错误码检索</h4>
+				<dl class="dl-horizontal">
+				{foreach $errorList as $error}
+				  <dt><a href="/error_code/index.php?category_id={$error['category_id']}#error_code_id_{$error['id']}" target="_blank">{$error['code']}</a></dt>
+				  <dd>{$error['title']}</dd>
+				{/foreach}
+			   </dl>
+			</div>
+		{/if}
+
+		</div>
+	</div>
+
+{include file="footer.html"}

@@ -31,6 +31,31 @@ class Utility{
 		exit;
 	}
 	
+	public static function getUserIP($defaultIP = null){ //获取用户IP todo
+	
+		if(isset($_SERVER['HTTP_CLIENTIP'])){
+			$userIP = $_SERVER['HTTP_CLIENTIP'];
+		} else if(isset($_SERVER['REMOTE_ADDR'])){
+			$userIP = $_SERVER['REMOTE_ADDR'];
+		} else if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])){
+			$userIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
+			$intPos = strrpos($userIP, ',');
+			if($intPos > 0){
+				$userIP = substr($userIP, $intPos+1);
+			}
+		} else if(isset($_SERVER['HTTP_CLIENT_IP'])){
+			$userIP = $_SERVER['HTTP_CLIENT_IP'];
+		}
+		$userIP = strip_tags($userIP);
+		$userIP = trim($userIP);
+	
+		if(!$userIP && $defaultIP){
+			$userIP = $defaultIP;
+		}
+	
+		return $userIP;
+	}
+	
 	//////////辅助函数
 	private static function _GenRandomChar($type = self::CHAR_MIX,$index = 0){
 		$random = '';

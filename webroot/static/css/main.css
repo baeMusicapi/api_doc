@@ -28,7 +28,7 @@
 }
 
 .main{
-	
+	min-height:500px
 }
 
 .paramter_list{
@@ -37,4 +37,10 @@
 
 .interface_result{
 	padding:30px;
+}
+
+.footer{
+	margin:30px;
+	text-align:center;
+	color:#AAAAAA;
 }
