@@ -2,3 +2,4 @@
 /.project
 /temp
 /.settings
+/conf/db.conf.php
