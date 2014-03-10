@@ -102,6 +102,9 @@
 		</table>
 		
 		<input type="submit" class="btn btn-info center-block" value="提交"/>
+		{if $_GET['success']}
+		<a href="/admin/interface/update.php" class="btn btn-success" />继续创建</a>
+		{/if}
 	</form>
 
 </div>
