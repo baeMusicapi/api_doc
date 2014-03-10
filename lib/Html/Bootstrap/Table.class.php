@@ -4,7 +4,7 @@ class Html_Bootstrap_Table{
 	public $th_array = array();
 	public $td_array = array();
 	public $col_width_array = array();
-	public $table_class = 'table table-striped table-hover';
+	public $table_class = 'table table-striped';
 	
 	
 	function __construct($data) {
