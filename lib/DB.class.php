@@ -137,6 +137,20 @@ class DB{
 		return self::Query($sql,$dbType);
 	}
 	
+	public static function Exists($table,$condition,$column = 'id',$dbType = null){
+		$condition = self::BuildCondition($condition,'AND',$dbType);
+		$sql = "SELECT {$column} from `{$table}` ";
+		if($condition){
+			$sql .= " WHERE {$condition}";
+		}
+		$sql .= ' limit 1 ';
+		$result = self::GetQueryResult($sql,$dbType);
+		if($result){
+			return true;
+		} else {
+			return false;
+		}
+	}
 	
 	static public function BuildCondition ($condition = array(), $logic = 'AND',$dbType = null) {
 		$logic = $logic ? $logic : 'AND';

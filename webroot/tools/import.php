@@ -15,8 +15,9 @@ $content = $file->readALL();
  */
 $action = 1;
 $interface = array();
-foreach ($content as $line){
-	$line = trim($line);
+foreach ($content as $lineRaw){
+	
+	$line = trim($lineRaw);
 	if(strstr($line,'|') !== false){
 		$next = true;
 	} else {
@@ -29,7 +30,6 @@ foreach ($content as $line){
 		$end = false;
 	}
 	$line = trim($line,"|#");
-	
 	if($line){
 		switch ($action){
 			case 1:
@@ -37,6 +37,14 @@ foreach ($content as $line){
 				break;
 			case 2:
 				$interface['url'] = $line;
+				$urlInfo = parse_url($interface['url']);
+				$query = $urlInfo['query'];
+				parse_str($query,$queryInfo);
+				$method = explode('.', $queryInfo['method']);
+				$interface['category'] = $method[2];
+				$method = $method[2].'.'.$method[3];
+				$interface['name'] = $method;
+				
 				break;
 			case 3:	
 				$line = str_replace("\t", ' ', $line);
@@ -44,8 +52,8 @@ foreach ($content as $line){
 				
 				$fristChar = substr($pname,0,1);
 				if(preg_match('/[a-zA-Z]/',$fristChar)){
-					$interface['paramters'][$pname] = array(
-						'title' => $pname,
+					$interface['parameters'][$pname] = array(
+						'name' => $pname,
 						'comment' => $pInfo,
 					);
 				}
@@ -53,7 +61,8 @@ foreach ($content as $line){
 
 				break;
 			case 4:
-				$interface['result'] .= $line . "\n";
+				$lineRaw = trim($lineRaw,'|#');
+				$interface['result'] .= $lineRaw . "<br />";
 				break;
 			case 5:
 					
@@ -74,4 +83,40 @@ foreach ($content as $line){
 	}
 }
 
-dump($interfaces);
+if($_GET['action'] == 'do'){
+	$categoryList  = Lib_Category::getCategoryList(Lib_Category::TYPE_API);
+	$categoryList = Util_Array::AssColumn($categoryList, 'name');
+	foreach ($interfaces as $interfaceInfo){
+		$condition = array('name' => $interfaceInfo['name']);
+		if(DB::Exists('interface', $condition)){
+			continue;
+		}
+		DB::Debug(true);
+		$interface = array(
+			'name' => $interfaceInfo['name'],
+			'title' => $interfaceInfo['title'],
+			'url' => $interfaceInfo['url'] ? $interfaceInfo['url'] : '',
+			'result' => $interfaceInfo['result'],
+			'category_id' => $categoryList[$interfaceInfo['category']] ? $categoryList[$interfaceInfo['category']]['id'] : 0, 
+		);
+		
+		if($interfaceInfo['parameters']){
+			$interface['parameters'] = $interfaceInfo['parameters'];
+		}
+		
+		$result = Lib_Interface::Create($interface);
+		if(!$result){
+			dump(DB::$error);
+		}
+		DB::Debug(false);
+	}
+} else if($_GET['action'] == 'del'){
+	DB::Debug();
+	foreach ($interfaces as $interface){
+		$condition = array('name' => $interface['name']);
+		DB::Delete('interface', $condition);
+	}
+} else {
+	dump($interfaces);
+}
+
