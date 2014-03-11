@@ -3,8 +3,8 @@
 
 <div class="row">
 	<div class="col-md-2" >
-		<div class="bs-sidebar" id="side_bar" data-spy="affix" >
-			<ul class="nav  bs-sidenav text-center">
+		<div class="bs-sidebar" id="side_bar" >
+			<ul class="nav  bs-sidenav text-left">
 			  <li>
 			  <a href="#api">API接口</a>
 			  	<ul class="nav" id="nav_api">
@@ -57,30 +57,3 @@
 
 
 {include file="footer.html"}
-<script type="text/javascript">
-updateSideBar();
-window.onscroll = updateSideBar;
-
-
-function updateSideBar(){
-	$rollSideBar = $("#side_bar");
-	$mainSide = $("#main .category_header");
-	var sideBarTop = $rollSideBar.offset().top;
-	
-	len = $mainSide.length;
-	for(i = 0; i< len;i++){
-		$current = $($mainSide[i])
-		var currentTop = $current.offset().top;
-		if(sideBarTop <= currentTop + 150){
-			$currentID = $current.attr('id');
-			$("#side_bar ul ul").hide();
-			$("#side_bar li").removeClass('active');
-			$("#nav_"+$currentID).show();
-			$("a[href='#"+$currentID+"']").parent().attr("class","active")
-			return;		
-		}
-	}
-}
-
-
-</script>
