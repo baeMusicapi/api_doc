@@ -9,7 +9,9 @@ class Html_Bootstrap_Table{
 	
 	function __construct($data) {
 		$this->data = $data;
-		$this->defaultSet();
+		if($data){
+			$this->defaultSet();
+		}
 	}
 	
 	public function setTableInfo($key_array){
