@@ -34,7 +34,7 @@
 			<h4 id="api-{$category['id']}">{$category['name']} <small>{$category['title']}</small></h4>
 			<ul>
 				{foreach $category['api'] as $api}
-				<li><a href="/interface/info.php?interface_id={$api['id']}" target="_blank">{$api['name']} {$api['title']}</a></li>
+				<li><a href="/interface/info.php?interface_id={$api['id']}">{$api['name']} {$api['title']}</a></li>
 				{/foreach}
 			</ul>
 		{/foreach}
