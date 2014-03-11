@@ -9,6 +9,7 @@ if($_POST){
 	$contact = $_POST['contact'];
 	$message = $_POST['message'];
 	
+	
 	$suggestion = array(
 		'title' => $title,
 		'username' => $username,
@@ -22,7 +23,7 @@ if($_POST){
 		Utility::Redirect("/suggest_suc.php");
 	}
 	
-	Lib_System::SetError("创建失败啊,联系管理员吧,先看看啥问题 :".Lib_Suggestion::$error);
+	Lib_System::SetError("创建失败,先看看啥问题 :<b>".Lib_Suggestion::$error."</b>");
 }
 
 
