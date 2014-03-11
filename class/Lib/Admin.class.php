@@ -32,6 +32,10 @@ class Lib_Admin{
 				'title' => '标签管理',
 				'url' => "/admin/tag/index.php",
 			),
+			'suggestion' => array(
+				'title' => '用户建议',
+				'url' => "/admin/suggestion/index.php",
+			),
 		);
 		foreach ($data as $key => &$one){
 			if(self::isCurrentSideItem($key)){

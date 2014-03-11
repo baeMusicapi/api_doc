@@ -35,5 +35,5 @@ require_once PLUGIN_PATH . '/Smarty3/libs/Smarty.class.php'; //加载模板文�
 
 Config::Load();
 
-
+$title="Music API 文档";
 

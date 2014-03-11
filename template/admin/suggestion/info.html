@@ -1,0 +1,46 @@
+{include file="admin/header.html"}
+
+<div>
+	<h2 class="text-center"><small>用户建议</small></h2>
+	
+	<div class="text-info">
+		<div class="row">
+			<div class="col-md-2 text-primary">标题</div>
+			<div class="col-md-6">{$suggestion['title']}</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-2 text-primary">姓名</div>
+			<div class="col-md-6">{$suggestion['username']}</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-2 text-primary">时间</div>
+			<div class="col-md-6">{$suggestion['create_time']}</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-2 text-primary" >联系方式</div>
+			<div class="col-sm-6 text-left" >{$suggestion['contact']}</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-2 text-primary">IP</div>
+			<div class="col-md-6">{$suggestion['ip']}</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-2 text-primary">内同</div>
+			<div class="col-md-6 content">{$suggestion['message']}</div>
+		</div>
+	</div>
+</div>
+
+
+{include file="admin/footer.html"}
+
+<script>
+uParse('.content', {
+    rootPath: '/'
+})
+</script>

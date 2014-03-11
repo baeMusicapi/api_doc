@@ -12,4 +12,21 @@ class Lib_Suggestion{
 		}
 		return $result;
 	}
+	
+	public static function getList(){
+		$dbObj = new DB_Suggestion();
+		$condition = array();
+		$option = array(
+			'order' => 'order by id desc',
+		);
+		
+		$list = $dbObj->get($condition,$option);
+		return $list;
+	}
+	
+	public static function fetch($suggestionID){
+		$dbObj = new DB_Suggestion();
+		$suggestion = $dbObj->fetch($suggestionID);
+		return $suggestion;
+	}
 }
