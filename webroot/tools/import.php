@@ -1,10 +1,15 @@
 <?php
 include_once dirname(dirname(dirname(__FILE__))).'/app.php';
 
+$fileName = $_GET['file'];
+$fileName = ROOT_PATH . "/temp/{$fileName}.txt";
 
-$filename = ROOT_PATH . "/temp/song.txt";
+if(!file_exists($fileName)){
+	echo "No file !";
+	exit;
+}
 
-$file = new File($filename);
+$file = new File($fileName);
 $content = $file->readALL();
 /*
  * 1: start
@@ -49,12 +54,19 @@ foreach ($content as $lineRaw){
 			case 3:	
 				$line = str_replace("\t", ' ', $line);
 				list($pname,$pInfo) = explode(' ', $line,2);
+				if(strpos($pInfo, '必选') !== false){
+					$must = 1;
+				} else {
+					$must = 0;
+				}
+				
 				
 				$fristChar = substr($pname,0,1);
 				if(preg_match('/[a-zA-Z]/',$fristChar)){
 					$interface['parameters'][$pname] = array(
-						'name' => $pname,
+						'name' => trim($pname,':'),
 						'comment' => $pInfo,
+						'must' => $must,
 					);
 				}
 				
