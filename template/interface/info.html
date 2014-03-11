@@ -17,8 +17,9 @@
 	
 			<h3>{$interface['name']} <small>{$interface['title']}</small></h3>
 			<p class="text-success lead">{$interface['url']}</p>
-			<pre>{$interface['introduction']}</pre>
-			
+			{if $interface['introduction']}
+				<pre>{$interface['introduction']}</pre>
+			{/if}
 			<label>参数列表</label>
 			
 			<div class="paramter_list">{$htmlTable}</div>
