@@ -31,10 +31,6 @@
 	min-height:500px
 }
 
-.paramter_list{
-	
-}
-
 .interface_result{
 	padding:30px;
 }
@@ -51,11 +47,12 @@ ul ul{
 	left:20px;
 }
 
+/* header a 标签样式 */
 .header_a{
 	color: #FFFFFF;
 }
 
 .header_a:hover{
 	color: #FFFFFF;
-	text-decoration:none;
+	text-decoration:none; /* 去掉下划线 */
 }
