@@ -50,3 +50,12 @@ ul ul{
 	position:relative;
 	left:20px;
 }
+
+.header_a{
+	color: #FFFFFF;
+}
+
+.header_a:hover{
+	color: #FFFFFF;
+	text-decoration:none;
+}
