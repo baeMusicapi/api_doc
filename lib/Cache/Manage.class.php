@@ -14,17 +14,47 @@ class Cache_Manage{
 	 * 
 	 * @param unknown $cacheType
 	 */
-	public static function getInstance($cacheType = self::CACHE_TYPE_MEMCACHED){
-		$cacheType = $cacheType ? $cacheType : self::CACHE_TYPE_MEMCACHED;
+	public static function getInstance($cacheType = 0,$runtime=''){
+		$cacheType = $cacheType ? $cacheType : Ting::$config['cache']['default_type'];
+		$runtime = $runtime ? $runtime : RUNTIME;
 		
-		if(!self::$_AdapterList[$cacheType]){
-			$cacheAdapter->ini($servers);
+		if(!self::$_AdapterList[$runtime][$cacheType]){
+			$memcacheHosts = Ting::$config['memcache']['host'][$runtime];
+			$memcacheNodeNum = Ting::$config['memcache']['node_num'][$runtime];
+				
+			$memecacheServers = array();
+			foreach ($memcacheHosts as $serverInfo){
+				list($serverStr,$weight) = explode(' ', $serverInfo);
+				list($host,$port) = explode(':', $serverStr);
+				$weight = $weight ? intval($weight) : intval($memcacheNodeNum);
+				$weight = $weight > 0 ? $weight : 1;
+				$server = array($host,$port,$weight);
+				$memecacheServers[] = $server;
+			}
+			
+			switch ($cacheType){
+				case self::CACHE_TYPE_MEMCACHED:
+					$cacheAdapter = new Cache_Adapter_Memcached();
+					$cacheAdapter->ini($memecacheServers);
+					break;
+				case self::CACHE_TYPE_ZCACHE:
+					$zcacheConfig= Ting::$config['zcache'];
+					$cacheAdapter = new Cache_Adapter_ZCache();
+					$cacheAdapter->ini($zcacheConfig);
+					break;
+
+				case self::CACHE_TYPE_MEMCACHE:
+				default:
+					$cacheAdapter = new Cache_Adapter_Memcache();
+					$cacheAdapter->ini($memecacheServers);
+					break;
+			}
 			
 			$cacheManage = new Cache_Manage($cacheAdapter);
-			self::$_AdapterList[$cacheType] = $cacheManage;
+			self::$_AdapterList[$runtime][$cacheType] = $cacheManage;
 		}
 		
-		return self::$_AdapterList[$cacheType];
+		return self::$_AdapterList[$runtime][$cacheType];
 	}
 
 	public function __construct($cacheAdapter){
