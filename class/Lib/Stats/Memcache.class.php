@@ -13,7 +13,7 @@ class Lib_Stats_Memcache{
 					$useRate = ($useRate * 100) . '%';
 					$cacheStatus['use_rate'] = $useRate;
 				
-					$hitRate = @round(doubleval($cacheStatus['get_hits']) / ($cacheStatus['get_his'] + $cacheStatus['get_misses']),2);
+					$hitRate = @round(doubleval($cacheStatus['get_hits']) / ($cacheStatus['get_hits'] + $cacheStatus['get_misses']),2);
 					$hitRate = ($hitRate * 100) . '%';
 					$cacheStatus['hit_rate'] = $hitRate;
 				
