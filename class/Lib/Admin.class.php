@@ -36,6 +36,10 @@ class Lib_Admin{
 				'title' => '用户建议',
 				'url' => "/admin/suggestion/index.php",
 			),
+			'stats' => array(
+				'title' => '线上服务',
+				'url' => "/admin/stats/memcache.php",
+			),
 		);
 		foreach ($data as $key => &$one){
 			if(self::isCurrentSideItem($key)){
