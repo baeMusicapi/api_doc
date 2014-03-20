@@ -1,0 +1,23 @@
+{include file="admin/header.html"}
+
+<div>
+	<h2 class="text-center"><small>Memcache使用情况</small></h2>
+	
+	<div class="text-info">
+		{foreach $showArray as $server => $htmlTable}
+		<div>
+			<h3>{$server} 机房</h3>
+			{$htmlTable}
+		</div>
+		{/foreach}
+	</div>
+</div>
+
+
+{include file="admin/footer.html"}
+
+<script>
+uParse('.content', {
+    rootPath: '/'
+})
+</script>

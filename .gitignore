@@ -3,3 +3,4 @@
 /temp
 /.settings
 /conf/db.conf.php
+/conf/cache.conf.php

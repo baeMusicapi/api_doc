@@ -14,37 +14,44 @@ class Cache_Manage{
 	 * 
 	 * @param unknown $cacheType
 	 */
-	public static function getInstance($cacheType = 0,$runtime=''){
-		$cacheType = $cacheType ? $cacheType : Ting::$config['cache']['default_type'];
+	public static function getInstance($cacheConfig,$cacheType = 0,$runtime = ''){
+		$cacheType = $cacheType ? $cacheType : self::CACHE_TYPE_MEMCACHE;
 		$runtime = $runtime ? $runtime : RUNTIME;
 		
 		if(!self::$_AdapterList[$runtime][$cacheType]){
-			$memcacheHosts = Ting::$config['memcache']['host'][$runtime];
-			$memcacheNodeNum = Ting::$config['memcache']['node_num'][$runtime];
-				
-			$memecacheServers = array();
-			foreach ($memcacheHosts as $serverInfo){
-				list($serverStr,$weight) = explode(' ', $serverInfo);
-				list($host,$port) = explode(':', $serverStr);
-				$weight = $weight ? intval($weight) : intval($memcacheNodeNum);
-				$weight = $weight > 0 ? $weight : 1;
-				$server = array($host,$port,$weight);
-				$memecacheServers[] = $server;
-			}
-			
 			switch ($cacheType){
 				case self::CACHE_TYPE_MEMCACHED:
+					$servers = $cacheConfig['server'];
+					$defaultWeight = intval($cacheConfig['default_weight']);
+					foreach ($servers as $serverInfo){
+						list($serverStr,$weight) = explode(' ', $serverInfo);
+						list($host,$port) = explode(':', $serverStr);
+						$weight = $weight ? intval($weight) : intval($defaultWeight);
+						$weight = $weight > 0 ? $weight : 1;
+						$server = array($host,$port,$weight);
+						$memecacheServers[] = $server;
+					}
+					
 					$cacheAdapter = new Cache_Adapter_Memcached();
 					$cacheAdapter->ini($memecacheServers);
 					break;
 				case self::CACHE_TYPE_ZCACHE:
-					$zcacheConfig= Ting::$config['zcache'];
-					$cacheAdapter = new Cache_Adapter_ZCache();
-					$cacheAdapter->ini($zcacheConfig);
+
 					break;
 
 				case self::CACHE_TYPE_MEMCACHE:
 				default:
+					$servers = $cacheConfig['server'];
+					$defaultWeight = intval($cacheConfig['default_weight']);
+					foreach ($servers as $serverInfo){
+						list($serverStr,$weight) = explode(' ', $serverInfo);
+						list($host,$port) = explode(':', $serverStr);
+						$weight = $weight ? intval($weight) : intval($defaultWeight);
+						$weight = $weight > 0 ? $weight : 1;
+						$server = array($host,$port,$weight);
+						$memecacheServers[] = $server;
+					}
+					
 					$cacheAdapter = new Cache_Adapter_Memcache();
 					$cacheAdapter->ini($memecacheServers);
 					break;
