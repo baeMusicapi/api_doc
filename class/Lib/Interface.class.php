@@ -13,9 +13,9 @@ class Lib_Interface{
 		
 		$condition = array(
 			"or" => array(
-				"locate('{$keyWord}',name)",
-				"locate('{$keyWord}',title)",
-				"locate('{$keyWord}',introduction)",
+				"locate(lower('{$keyWord}'),lower(name))",
+				"locate(lower('{$keyWord}'),lower(title))",
+				"locate(lower('{$keyWord}'),lower(introduction))",
 			),
 		);
 		

@@ -75,8 +75,8 @@ class Lib_ErrorCode{
 		$condition = array(
 				"or" => array(
 						"locate('{$keyWord}',code)",
-						"locate('{$keyWord}',title)",
-						"locate('{$keyWord}',comment)",
+						"locate(lower('{$keyWord}'),lower(title))",
+						"locate(lower('{$keyWord}'),lower(comment))",
 				),
 		);
 		

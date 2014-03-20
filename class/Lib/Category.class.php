@@ -81,8 +81,8 @@ class Lib_Category{
 		
 		$condition = array(
 				"or" => array(
-						"locate('{$keyWord}',name)",
-						"locate('{$keyWord}',title)",
+						"locate(lower('{$keyWord}'),lower(name))",
+						"locate(lower('{$keyWord}'),lower(title))",
 				),
 		);
 		

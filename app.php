@@ -37,3 +37,6 @@ Config::Load();
 
 $title="Music API 文档";
 
+if($_GET['debug']){
+	DB::Debug(true);
+}
