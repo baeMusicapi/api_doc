@@ -28,7 +28,8 @@
 }
 
 .main{
-	min-height:500px
+	min-height:500px;
+	min-width:1300px;
 }
 
 .interface_result{
