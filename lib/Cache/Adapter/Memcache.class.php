@@ -151,7 +151,11 @@ class Cache_Adapter_Memcache implements Cache_Adapter_Model{
 		
 		$statusInfo = array();
 		foreach ($memcacheList as $key => $memcache){
-			$statusInfo[$key] = $memcache->getStats();
+			if($memcache){
+				$statusInfo[$key] = $memcache->getStats();
+			} else {
+				$statusInfo[$key] = false;
+			}
 		}
 		return $statusInfo;
 	}
@@ -198,17 +202,14 @@ class Cache_Adapter_Memcache implements Cache_Adapter_Model{
 		$_memcache_host_key = $host .'_'. $port;
 		if(!self::$_memcache[$_memcache_host_key]){
 			$memcache = new Memcache();
-			Log::seedMsec();
 			if(!$memcache->connect($host,$port)){
 				//链接失败
 				self::$_memcache[$_memcache_host_key]='';
 				$this->removeServer($server);//摘掉节点
-				Log::fatal("memcache_connect_fail", "dal", array($host, $port));
 				return false;
 			} else {
 				//链接成功
 				$memcache->setCompressThreshold(409600, 0.2);
-				Log::notice("memcache_connect_success", "dal", array($host, $port));
 				self::$_memcache[$_memcache_host_key] = $memcache;
 			}
 		}
@@ -255,10 +256,10 @@ class Cache_Adapter_Memcache implements Cache_Adapter_Model{
 				$memcache = new Memcache();
 				if (!$memcache->connect($host, $port)) {
 					self::$_memcache[$_memcache_host_key]='';
-					return false;
+				} else {
+					$memcache->setCompressThreshold(409600, 0.2);
+					self::$_memcache[$_memcache_host_key] = $memcache;
 				}
-				$memcache->setCompressThreshold(409600, 0.2);
-				self::$_memcache[$_memcache_host_key] = $memcache;
 			}
 		}
 		return self::$_memcache;
