@@ -41,14 +41,7 @@ class Cache_Adapter_Memcache implements Cache_Adapter_Model{
 		if(!$memcache){
 			return false;
 		}
-		Log::seedMsec();
 		$value =  $memcache->get($key);
-		
-		if($value){
-			Log::notice('memcache_get_success','dal',array('key'=>$key));	
-		} else {
-			Log::notice('memcache_get_fail','dal',array('key'=>$key));
-		}
 		
 		return $value;
 	}
@@ -95,14 +88,8 @@ class Cache_Adapter_Memcache implements Cache_Adapter_Model{
 		if(!$memcache){
 			return false;
 		}
-		Log::seedMsec();
 		$result = $memcache->set($key, $value,0,$expire);
-		
-		if($result){
-			Log::notice('memcaceh_set_success','dal',array('key'=>$key));
-		} else {
-			Log::fatal("memcache_set_fail", "dal", array('key'=>$key));
-		}
+
 		
 		return $result;
 	}
@@ -249,6 +236,7 @@ class Cache_Adapter_Memcache implements Cache_Adapter_Model{
 	 * 加载所有的memcache 服务
 	 */
 	private function _getAllMemcache(){
+		$memcacheArray = array();
 		foreach ($this->_node as $key => $weight){
 			list($host, $port) = explode(":", $key);
 			$_memcache_host_key = $host .'_'. $port;
@@ -261,8 +249,9 @@ class Cache_Adapter_Memcache implements Cache_Adapter_Model{
 					self::$_memcache[$_memcache_host_key] = $memcache;
 				}
 			}
+			$memcacheArray[$_memcache_host_key] = self::$_memcache[$_memcache_host_key];
 		}
-		return self::$_memcache;
+		return $memcacheArray;
 	}
 	
 	public function getServer($key){

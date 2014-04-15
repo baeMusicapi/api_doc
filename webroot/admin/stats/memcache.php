@@ -6,7 +6,6 @@ $memObj = new Lib_Stats_Memcache();
 
 $cacheInfoList = $memObj->getOnlineCacheInfo();
 
-
 $showArray = array();
 foreach ($cacheInfoList as $index => &$serverList){
 	foreach ($serverList as $server => &$serverInfo){
