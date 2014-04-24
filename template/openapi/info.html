@@ -1,0 +1,44 @@
+{include file="header.html"}
+
+	
+	<div class="row">
+		<div class="col-md-2">
+		{include file="api_category.html"}
+		</div>
+		
+		<div class="col-md-10">
+		
+			<ol class="breadcrumb">
+			  <li><a href="/">Home</a></li>
+			  <li><a href="/interface/index.php">接口</a></li>
+			  <li><a href="/interface/index.php?category_id={$interface['category_id']}">{$categoryList[$interface['category_id']]['name']}</a></li>
+			   <li><a href="#">{$interface['name']}</a></li>
+			</ol>
+	
+			<h3>{$interface['name']} <small>{$interface['title']}</small></h3>
+			<p class="text-success lead">{$interface['url']}</p>
+			{if $interface['introduction']}
+				<pre>{$interface['introduction']}</pre>
+			{/if}
+			<label>参数列表</label>
+			
+			<div class="paramter_list">{$htmlTable}</div>
+			
+			<label>返回结果</label>
+			<div class="well interface_result" id="content">{$interface['result']}</div>
+			
+		
+			<label>错误码 <span class="glyphicon glyphicon-exclamation-sign"></span></label>
+			<div class="paramter_list">{$errorHtmlTable}</div>
+		</div>
+	</div>
+
+
+
+{include file="footer.html"}
+
+<script>
+uParse('.content', {
+    rootPath: '/'
+})
+</script>

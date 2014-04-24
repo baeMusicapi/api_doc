@@ -1,0 +1,51 @@
+{include file="admin/header.html"}
+<div class="inside_nav">
+	<ul class="nav nav-tabs">
+	  <li><a href="/admin/stats/memcache.php">MemCahce</a></li>
+	  <li class="active"><a href="/admin/stats/multi_result.php">多服务器请求</a></li>
+	</ul>
+</div>
+
+<div>
+	<h2 class="text-center"><small>多服务器请求</small></h2>
+	<form class="form-inline" action='' method="GET">
+		<div class="form-group">
+	   		<input name="url" type="text" class="form-control" id="url" placeholder="Enter URL" value="{$url}" />
+	  	</div>
+	  	<div class="form-group">
+	  		 选择机房:
+		  	<select name="runtime" class="form-control">
+		  		<option value="">所有</option>
+		  		{foreach $ipList as $rt => $list}
+		  		<option value="{$rt}" {if $rt==$runtime} selected {/if}>{$rt}</option>
+		  		{/foreach}
+		  	</select>
+	  	</div>
+	  	
+	 <input type="submit" class="btn btn-default" value="提交"/> 	
+	</form>
+	<br>
+	<div class="text-info">
+		{if $result}
+			{foreach $result as $data}
+			<div class="col-md-6">
+			<h4>服务器:
+				{foreach $data['server'] as $server} 
+				<span>{$server}</span> |
+				{/foreach}
+			</h4>
+				{dump($data['data'])}
+			</div>
+			{/foreach}
+		{/if}
+	</div>
+</div>
+
+
+{include file="admin/footer.html"}
+
+<script>
+uParse('.content', {
+    rootPath: '/'
+})
+</script>

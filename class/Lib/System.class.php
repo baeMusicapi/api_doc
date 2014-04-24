@@ -26,6 +26,11 @@ class Lib_System{
 						'url' => "/interface/index.php",
 						'key' => '/interface/',
 				),
+				'openapi' => array(
+						'title' => 'OpenAPI接口',
+						'url' => "/openapi/index.php",
+						'key' => '/openapi/',
+				),
 				'error_code' => array(
 						'title' => 'ErrorCode',
 						'url' => '/error_code/index.php',

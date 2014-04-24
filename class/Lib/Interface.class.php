@@ -6,8 +6,11 @@
  *
  */
 class Lib_Interface{
-	public static $error;
+	const TYPE_API = 1;
+	const TYPE_OPEN_API = 2;
 	
+	public static $error;
+
 	public static function Search($keyWord){
 		$dbInterface = new DB_Interface();
 		
@@ -82,9 +85,11 @@ class Lib_Interface{
 	}
 	
 	
-	public static function getList($categoryID = null,$start = 0,$size = 0){
+	public static function getList($categoryID = null,$start = 0,$size = 0,$type = self::TYPE_API){
 		$dbObj = new DB_Interface();
-		$condition = array();
+		$condition = array(
+			'type' => $type,
+		);
 		if($categoryID){
 			$condition['category_id'] = $categoryID;
 		}
@@ -121,7 +126,21 @@ class Lib_Interface{
 	
 	public static function getCategoryWithInterface(){
 		$apiCategoryList = Lib_Category::getCategoryList(Lib_Category::TYPE_API);
-		$interfaceList = Lib_Interface::getList();
+		$interfaceList = Lib_Interface::getList(0,0,0,Lib_Interface::TYPE_OPEN_API);
+		$categoryList = array();
+		foreach ($interfaceList as $interface){
+			$categoryID = $interface['category_id'];
+			if(!Util_Array::IsArrayValue($categoryList[$categoryID])){
+				$categoryList[$categoryID] = $apiCategoryList[$categoryID];
+			}
+			$categoryList[$categoryID]['api'][] = $interface;
+		}
+		return $categoryList;
+	}
+	
+	public static function getCategoryWithOpenAPI(){
+		$apiCategoryList = Lib_Category::getCategoryList(Lib_Category::TYPE_OPENAPI);
+		$interfaceList = Lib_Interface::getList(0,0,0,self::TYPE_OPEN_API);
 		$categoryList = array();
 		foreach ($interfaceList as $interface){
 			$categoryID = $interface['category_id'];

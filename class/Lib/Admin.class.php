@@ -17,8 +17,12 @@ class Lib_Admin{
 				'url'=>"/admin/index.php",
 			),
 			'interface' => array(
-				'title' => '接口管理',
+				'title' => 'API接口管理',
 				'url' => "/admin/interface/index.php",
+			),
+			'openapi' => array(
+					'title' => 'OpenAPI接口管理',
+					'url' => "/admin/openapi/index.php",
 			),
 			'category' => array(
 				'title' => '分类管理',

@@ -3,12 +3,14 @@ class Lib_Category{
 	public static $error;
 	const TYPE_API = 1;
 	const TYPE_ERROR = 2;
+	const TYPE_OPENAPI = 3;
 	
 	const STATUS_NORMAL = 1;
 	const STATUS_DEL = 2;
 	
 	public static $typeArray = array(
 		self::TYPE_API => array('name' => 'API接口分类','value' => self::TYPE_API),
+		self::TYPE_OPENAPI => array('name' => 'OpenAPI接口分类','value' => self::TYPE_OPENAPI),
 		self::TYPE_ERROR=> array('name' => '错误分类','value' => self::TYPE_ERROR),
 	);
 	
