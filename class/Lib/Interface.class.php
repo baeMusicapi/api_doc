@@ -126,7 +126,7 @@ class Lib_Interface{
 	
 	public static function getCategoryWithInterface(){
 		$apiCategoryList = Lib_Category::getCategoryList(Lib_Category::TYPE_API);
-		$interfaceList = Lib_Interface::getList(0,0,0,Lib_Interface::TYPE_OPEN_API);
+		$interfaceList = Lib_Interface::getList(0,0,0,Lib_Interface::TYPE_API);
 		$categoryList = array();
 		foreach ($interfaceList as $interface){
 			$categoryID = $interface['category_id'];

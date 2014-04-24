@@ -7,7 +7,6 @@ $env = Lib_System::getEnvData();
 /////////////category
 $categoryList = Lib_Interface::getCategoryWithInterface();
 
-
 $categoryID = $_GET['category_id'];
 
 $interfaceList  = Lib_Interface::getList($categoryID);
