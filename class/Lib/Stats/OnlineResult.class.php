@@ -13,9 +13,8 @@ class Lib_Stats_OnlineResult{
 		if($pos !== false){
 			$url = substr($url, $pos+strlen($keyWord));
 		}
-		$host = "tingapi.ting.baidu.com";
-		$header = array("Host:{$host}");
 		
+		$header = self::getHeader();
 		$resultList = array();
 		foreach (self::$ipList as $rt => $list){
 			if(!$runtime || in_array($rt, $runtime)){
@@ -30,5 +29,50 @@ class Lib_Stats_OnlineResult{
 			}
 		}
 		return $resultList;
+	}
+	
+	public function getCache($key,$runtime = array()){
+		$url = "/v1/restserver/ting?method=baidu.ting.cache.mget&key={$key}";
+		$header = self::getHeader();
+		$resultList = array();
+		
+		foreach (self::$ipList as $rt => $list){
+			if(!$runtime || in_array($rt, $runtime)){
+				$ip = $list[0];
+				$currentUrl = "http://$ip:8888{$url}";
+				$result = Util_HttpRequest::Get($currentUrl,array(),$header);
+				$resultMD5 = md5($result);
+				$result = json_decode($result,true);
+				$resultList[$resultMD5]['data'] = $result;
+				$resultList[$resultMD5]['server'][] = $rt . $ip;
+			}
+		}
+		return $resultList;
+	}
+	
+	public function delCache($key,$runtime = array()){
+		$url = "/v1/restserver/ting?method=baidu.ting.cache.mdelete&key={$key}";
+		$header = self::getHeader();
+		$resultList = array();
+		
+		foreach (self::$ipList as $rt => $list){
+			if(!$runtime || in_array($rt, $runtime)){
+				$ip = $list[0];
+				$currentUrl = "http://$ip:8888{$url}";
+				$result = Util_HttpRequest::Get($currentUrl,array(),$header);
+				$resultMD5 = md5($result);
+				$result = json_decode($result,true);
+				$resultList[$resultMD5]['data'] = $result;
+				$resultList[$resultMD5]['server'][] = $rt . $ip;
+			}
+		}
+		return $resultList;
+	}
+	
+	
+	public static function getHeader(){
+		$host = "tingapi.ting.baidu.com";
+		$header = array("Host:{$host}");
+		return $header;		
 	}
 }

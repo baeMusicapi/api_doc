@@ -5,8 +5,8 @@
  *
  */
 class BaiduOpen{
-	public $clientID = 'yNXeNB87IYd414n7MMYfR4b4';
-	public $clientSecret = 'ivQaMWOM5sfuWosWmQMQumq6GSxQG9S1';
+	public $clientID = 'greU9S0s8EkbnjP4KFeQVT2t';
+	public $clientSecret = 't3hAfDnQDmEGFfKD0MpXBMqkAtnGhWQb';
 	
 	
 	public function getAccessToken(){
