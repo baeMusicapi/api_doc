@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" rel="stylesheet" href="/static/css/bootstrap.css" />
+<link type="text/css" rel="stylesheet" href="/static/css/main.css" />
+<script src="/static/js/jquery-1.11.0.js"></script>
+<script src="/static/js/bootstrap.js"></script>
+<title>API Doc Admin Login</title>
+</head>
+<body>
+<br>
+{if $adminEnv['error']=Lib_Admin::GetError()}
+<div class="alert alert-danger alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  {$adminEnv['error']}
+</div>
+{/if}
+
+{if $adminEnv['notice']=Lib_Admin::GetNotice()}
+<div class="alert alert-success alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  {$adminEnv['notice']}
+</div>			
+{/if}
+<br>
+<h2 class="text-primary text-center">后台登陆</h2>
+<br><br><br>
+<div class="row container main">
+	
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+		<form class="form-horizontal" action="/admin/login.php" method="POST">
+			
+			<div class="form-group">
+				<label class="col-md-3 control-label">用户名</label>
+			    <div class="col-md-8">
+			    	<input name="name" type="text" class="form-control" value="{$name}">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-md-3 control-label">密码</label>
+			    <div class="col-md-8">
+			    	<input name="pwd" type="password" class="form-control">
+				</div>
+			</div>
+			
+			<div  class="form-group">
+			<div class="col-md-4"></div>
+				<div class="checkbox col-md-4">
+					<label>
+						记住我 <input type="checkbox" name="remember" value="1"  {if $remember} checked {/if}/>
+					</label>
+				</div>
+				<div class="col-md-4"><input type="submit" class="btn btn-info" value="提交"/></div>
+
+			</div>
+			
+		</form>
+	</div>
+</div>
+</body>
+</html>

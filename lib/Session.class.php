@@ -12,4 +12,9 @@ class Session{
 		}
 		return $value;
 	}
+	
+	public static function Del($key){
+		$_SESSION[$key] = null;
+		unset($_SESSION[$key]);
+	}
 }

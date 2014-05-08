@@ -1,12 +1,19 @@
 <?php
 class Lib_Admin{
+	const SESSION_ADMIN_USER_ID = 'admin_user_id';
+	const COOKIE_ADMIN_USER = 'admin_user';
 
 	public static function getEnvData(){
 		$env = array();
 		$sideBarData = self::getSideBarData();
-		
 		$env['side_bar_data'] = $sideBarData;
 		
+		$loginUser = self::GetLoginUser();
+		if(!$loginUser){
+			self::SetError("请先登陆");
+			Utility::Redirect('/admin/login.php');
+		}
+		$env['login_user'] = $loginUser;
 		return $env;
 	} 
 	
@@ -81,5 +88,48 @@ class Lib_Admin{
 	
 	public static function GetNotice($once=true){
 		return Session::Get('admin_notice',$once);
+	}
+	
+	public static function Login($username,$pwd,$remember = false){
+		$pwdMD5 = md5($pwd);
+		$dbUser = new DB_AdminUser();
+		$user = $dbUser->fetch($username,'username');
+		
+		if(!$user || $user['password'] != $pwdMD5){
+			return false;
+		}
+		
+		if($remember){
+			$userStr = "{$username}@{$pwd}";
+			$userStr = Util_Secret::Encode($userStr);
+			$result = Cookie::Set(self::COOKIE_ADMIN_USER, $userStr,10*86400);
+		}
+		
+		Session::Set(self::SESSION_ADMIN_USER_ID, $user['id']);
+		return $user;
+	}
+	
+	public static function GetLoginUser(){
+		$userID = Session::Get(self::SESSION_ADMIN_USER_ID);
+		$dbUser = new DB_AdminUser();
+		if($userID){
+			$user = $dbUser->fetch($userID);
+			return $user;
+		}
+		
+		$userInfo = Cookie::Get(self::COOKIE_ADMIN_USER);
+		if(!$userInfo){
+			return false;
+		}
+		
+		$userInfo = Util_Secret::Decode($userInfo);
+		$userInfo = explode('@', $userInfo);
+		$user = self::Login($userInfo[0], $userInfo[1]);
+		return $user;
+	}
+	
+	public static function Logout(){
+		Session::Del(self::SESSION_ADMIN_USER_ID);
+		Cookie::Del(self::COOKIE_ADMIN_USER);
 	}
 }
