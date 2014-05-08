@@ -6,7 +6,7 @@
 		<div class="panel-body">  
 			<p><b>接口总数</b>: {$interfaceStatis['amount']}<p>
 			{foreach $interfaceStatis['category_amount'] as $catgoryID => $camount}
-				<p><b>{$categoryList[$catgoryID]['name']}({$categoryList[$catgoryID]['title']})</b> : {$camount}</p>
+				<p><b>{if $categoryList[$catgoryID]['show_title']}  {$categoryList[$catgoryID]['show_title']} {else} 未知 {/if}</b> : {$camount}</p>
 			{/foreach}
 	</div>
 </div>

@@ -55,6 +55,10 @@ class Lib_Category{
 		
 		$categoryList = $dbObj->get($condition,$option);
 		$categoryList = Util_Array::AssColumn($categoryList, 'id');
+		
+		
+
+		
 		return $categoryList;
 	}
 	
