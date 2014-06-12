@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link type="text/css" rel="stylesheet" href="/static/css/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="/static/css/main.css" />
+	<script src="/static/js/jquery-1.11.0.js"></script>
+	<script src="/static/js/bootstrap.js"></script>
+	<script src="/plugins/ueditor/ueditor.parse.js"></script>
+	<title>{$title}</title>
+</head>
+<body>
+	<div class="main container">
+		<h2 class="text-success">调用测试</h2>
+		<br/>
+		
+		<div class="row">
+			<div class="col-md-5">
+				<div class="row"><div class="col-xs-5">
+				<select class="form-control" id="interface_select">
+				{foreach $allInterface as $id => $interface}
+				<option value="{$id}" {if $id==$defaultID}selected {/if}> {$interface['name']} </option>
+				{/foreach}
+				</select>
+				
+				</div></div>
+				
+				<br>
+				
+				<div id="interface_form">
+				
+				</div>
+				
+				<button class="btn btn-primary btn-lg" id="commit">提交</button>
+			</div>
+		
+		
+			<div class="col-md-7">
+			<h4> 调用URL</h4>
+			<pre id="result_url"></pre>
+			<h4> 调用结果 </h4>
+			<pre class="well" id="result_content"></pre>
+			</div>
+		
+		</div>
+	
+	</div>
+</body>
+
+
+<script type="text/javascript">
+selectInterface({$defaultID});
+$("#interface_select").bind("change", function(){
+	interface_id = $("#interface_select").val();
+	selectInterface(interface_id);
+});
+
+$("#commit").bind("click", function(){ getResult();});
+
+
+
+
+function selectInterface(interface_id){
+	$url="/ajax/excute.php?action=interface_form&id=" + interface_id;
+	$.get($url, function(data){
+		  $("#interface_form").html(data);
+	});
+}
+
+vdata = '';
+function getResult(){
+	list = $("#param_list input");
+	url = $("#url").html();
+	
+	paraStr = "";
+	for(var i = 0, l = list.length; i < l; i++) {
+	    value = $(list[i]).val();
+	    name = $(list[i]).attr("id");
+	    str = name + "=" + value;
+	    paraStr = paraStr + "&" + str;
+	}
+	url = url + paraStr;
+	
+    $.ajax({
+        'url': url,
+        dataType: "jsonp",
+        jsonp: "callback",
+        success: function (data) {
+        	$("#result_content").html(JSON.stringify(data, 4, 4));
+        	$("#result_url").html(url);
+        }
+    });
+
+}
+
+
+</script>
+</html>
+
+

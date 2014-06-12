@@ -20,7 +20,7 @@ class DB_Model{
 		return $insertID;	
 	}
 	
-	public function get($condition,$option = array()){
+	public function get($condition = array(),$option = array()){
 		$table = $this->tableName;
 		$dbType = $dbType ? $dbType : $this-> readDB;
 		if(!$table){

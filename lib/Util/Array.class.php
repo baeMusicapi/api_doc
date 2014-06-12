@@ -54,7 +54,7 @@ class Util_Array{
 	 */
 	public static function AssColumn($array,$colKey){
 		if(!$array || !is_array($array) || !$colKey){
-			return null;
+			return $array;
 		}
 		
 		$newArray = array();

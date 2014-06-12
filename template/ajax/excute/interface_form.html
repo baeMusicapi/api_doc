@@ -1,0 +1,19 @@
+<form class="form-horizontal" id="param_list">
+
+<h4><small id="url" value="{$interface['url']}">{$interface['url']}</small></h4>
+
+{if $interface['parameters']}
+	{foreach $interface['parameters'] as $parameter}
+	  <div class="form-group">
+	    <label class="col-sm-2 control-label">{$parameter['name']}</label>
+	    <div class="col-sm-10">
+	      <input class="form-control" id="{$parameter['name']}" placeholder="{$parameter['comment']}" value="{$parameter['default']}">
+	    </div>
+	  </div>
+	
+	{/foreach}
+{else}
+	<h2 class="text-success">无输入参数</h2>
+{/if}
+
+</form>
