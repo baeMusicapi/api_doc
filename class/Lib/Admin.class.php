@@ -51,10 +51,10 @@ class Lib_Admin{
 				'title' => '线上服务',
 				'url' => "/admin/stats/memcache.php",
 			),
-			'count' => array(
-				'title' => '接口性能统计',
-				'url' => "/admin/count/index.php",
-			),
+// 			'count' => array(
+// 				'title' => '接口性能统计',
+// 				'url' => "/admin/count/index.php",
+// 			),
 		);
 		foreach ($data as $key => &$one){
 			if(self::isCurrentSideItem($key)){
